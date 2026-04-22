@@ -1,0 +1,352 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --bs-color-white: #ffffff; /** Colore neutro */
+  --bs-color-black-10: rgba(0, 0, 0, 0.1); /** Colore neutro */
+  --bs-color-black-15: rgba(0, 0, 0, 0.15); /** Colore neutro */
+  --bs-color-black-25: rgba(0, 0, 0, 0.25); /** Colore neutro */
+  --bs-color-black-50: rgba(0, 0, 0, 0.5); /** Colore neutro */
+  --bs-color-black-85: rgba(0, 0, 0, 0.85); /** Colore neutro */
+  --bs-color-black-100: #000000; /** Colore neutro */
+  --bs-color-black-05: rgba(0, 0, 0, 0.05); /** Colore neutro */
+  --bs-color-blue-20: #003366; /** Colore tema default */
+  --bs-color-blue-25: #004080; /** Colore tema default */
+  --bs-color-blue-30: #004d99; /** Colore tema default */
+  --bs-color-blue-40: #0066cc; /** Colore tema default - valore base */
+  --bs-color-blue-48: #207ad5; /** Colore tema default */
+  --bs-color-blue-57: #4392e0; /** Colore tema default */
+  --bs-color-blue-67: #6aaaeb; /** Colore tema default */
+  --bs-color-blue-77: #94c4f5; /** Colore tema default */
+  --bs-color-blue-87: #bfdfff; /** Colore tema default */
+  --bs-color-blue-97: #f2f7fc; /** Colore tema default */
+  --bs-color-seagreen-10: #003121; /** Colore tema secondario */
+  --bs-color-seagreen-14: #004931; /** Colore tema secondario */
+  --bs-color-seagreen-19: #006242; /** Colore tema secondario */
+  --bs-color-seagreen-24: #007a52; /** Colore tema secondario - valore base */
+  --bs-color-seagreen-39: #329574; /** Colore tema secondario */
+  --bs-color-seagreen-54: #64af96; /** Colore tema secondario */
+  --bs-color-seagreen-69: #96cab9; /** Colore tema secondario */
+  --bs-color-seagreen-76: #afd7ca; /** Colore tema secondario */
+  --bs-color-seagreen-84: #c8e4db; /** Colore tema secondario */
+  --bs-color-seagreen-92: #eaf6f1; /** Colore tema secondario */
+  --bs-color-slate-20: #17324d; /** Colore neutro */
+  --bs-color-slate-28: #2f475e; /** Colore neutro */
+  --bs-color-slate-36: #455b71; /** Colore neutro */
+  --bs-color-slate-44: #5c6f82; /** Colore neutro - valore base */
+  --bs-color-slate-52: #768594; /** Colore neutro */
+  --bs-color-slate-62: #929da9; /** Colore neutro */
+  --bs-color-slate-68: #a3adb7; /** Colore neutro */
+  --bs-color-slate-78: #c5c7c9; /** Colore neutro */
+  --bs-color-slate-85: #d9dadb; /** Colore neutro */
+  --bs-color-slate-93: #ebeced; /** Colore neutro */
+  --bs-color-gray-10: #1a1a1a; /** Colore neutro */
+  --bs-color-gray-15: #262626; /** Colore neutro - valore base */
+  --bs-color-gray-25: #404040; /** Colore neutro */
+  --bs-color-gray-32: #525252; /** Colore neutro */
+  --bs-color-gray-45: #737373; /** Colore neutro */
+  --bs-color-gray-64: #a3a3a3; /** Colore neutro */
+  --bs-color-gray-83: #d4d4d4; /** Colore neutro */
+  --bs-color-gray-90: #e5e5e5; /** Colore neutro */
+  --bs-color-gray-96: #f5f5f5; /** Colore neutro */
+  --bs-color-gray-98: #fafafa; /** Colore neutro */
+  --bs-color-red-25: #661a26; /** Colore di sistema */
+  --bs-color-red-30: #7a1f2e; /** Colore di sistema */
+  --bs-color-red-37: #992639; /** Colore di sistema */
+  --bs-color-red-44: #b32d43; /** Colore di sistema */
+  --bs-color-red-50: #cc334d; /** Colore di sistema - valore base */
+  --bs-color-red-60: #d65c70; /** Colore di sistema */
+  --bs-color-red-70: #e08593; /** Colore di sistema */
+  --bs-color-red-80: #ebadb8; /** Colore di sistema */
+  --bs-color-red-90: #f5d6db; /** Colore di sistema */
+  --bs-color-red-96: #fbeff1; /** Colore di sistema */
+  --bs-color-emerald-15: #004d33; /** Colore di sistema */
+  --bs-color-emerald-20: #006644; /** Colore di sistema */
+  --bs-color-emerald-25: #008055; /** Colore di sistema - valore base */
+  --bs-color-emerald-35: #00b377; /** Colore di sistema */
+  --bs-color-emerald-40: #00cc88; /** Colore di sistema */
+  --bs-color-emerald-48: #22d499; /** Colore di sistema */
+  --bs-color-emerald-57: #43e0ac; /** Colore di sistema */
+  --bs-color-emerald-67: #6ee7bf; /** Colore di sistema */
+  --bs-color-emerald-77: #99eed2; /** Colore di sistema */
+  --bs-color-emerald-87: #c8f6e7; /** Colore di sistema */
+  --bs-color-emerald-94: #e5fbf4; /** Colore di sistema */
+  --bs-color-orange-20: #663d00; /** Colore di sistema */
+  --bs-color-orange-25: #804d00; /** Colore di sistema */
+  --bs-color-orange-30: #995c00; /** Colore di sistema */
+  --bs-color-orange-35: #b36b00; /** Colore di sistema */
+  --bs-color-orange-40: #cc7a00; /** Colore di sistema - valore base */
+  --bs-color-orange-48: #d48d22; /** Colore di sistema */
+  --bs-color-orange-57: #e0a243; /** Colore di sistema */
+  --bs-color-orange-67: #e7b66e; /** Colore di sistema */
+  --bs-color-orange-77: #eecd9a; /** Colore di sistema */
+  --bs-color-orange-87: #f6e4c8; /** Colore di sistema */
+  --bs-color-orange-94: #fbf2e5; /** Colore di sistema */
+  --bs-color-teal-20: #05615e; /** Colore di risalto */
+  --bs-color-teal-26: #077f7b; /** Colore di risalto */
+  --bs-color-teal-32: #089994; /** Colore di risalto */
+  --bs-color-teal-36: #09afa9; /** Colore di risalto */
+  --bs-color-teal-42: #0bcbc5; /** Colore di risalto */
+  --bs-color-teal-50: #2bd6d0; /** Colore di risalto */
+  --bs-color-teal-60: #52e0db; /** Colore di risalto */
+  --bs-color-teal-70: #79ece8; /** Colore di risalto */
+  --bs-color-teal-80: #a3f5f2; /** Colore di risalto */
+  --bs-color-teal-90: #ccfffd; /** Colore di risalto */
+  --bs-color-plum-18: #46163f;
+  --bs-color-plum-24: #5e1d54;
+  --bs-color-plum-32: #7d2670;
+  --bs-color-plum-55: #ad67a2;
+  --bs-color-plum-84: #e2cadf;
+  --bs-color-plum-95: #f6eff5;
+  --bs-color-plum-98: #fbf9fb;
+  --bs-color-background-primary: #297a38; /** Sfondo primario, utilizzato per elementi interattivi (buttons, links) ed elementi caratterizzati con l’identità visiva. */
+  --bs-color-background-primary-light: #ffffff; /** Sfondo con contrasto leggero, utilizzato come alternativa al colore primario per elementi interattivi. */
+  --bs-color-background-primary-lighter: #e4f6e8; /** Sfondo di colore primario con contrasto ridotto, definisce una sezione o una parte di essa nel contesto della pagina. */
+  --bs-color-background-primary-hover: #184921; /** Sfondo utilizzato su componenti primari interattivi nello stato di :hover. */
+  --bs-color-background-primary-active: #08170a; /** Sfondo utilizzato su componenti primari interattivi nello stato attivo e premuto. */
+  --bs-color-background-primary-muted: #184921; /** Sfondo utilizzato su sezioni di pagina. */
+  --bs-color-background-primary-deep: #113217; /** Sfondo utilizzato su sezioni di pagina. */
+  --bs-color-background-secondary: #5c6f82; /** Sfondo alternativo, utilizzato per elementi interattivi secondari o per sezioni di una pagina. */
+  --bs-color-background-secondary-hover: #2f475e; /** Sfondo utilizzato su elementi interattivi secondari nello stato di :hover. */
+  --bs-color-background-secondary-active: #17324d; /** Sfondo utilizzato su elementi interattivi secondari nello stato attivo e premuto. */
+  --bs-color-background-secondary-light: #a3adb7; /** Sfondo colore secondario chiaro. */
+  --bs-color-background-secondary-lighter: #ebeced; /** Sfondo colore secondario molto chiaro. */
+  --bs-color-background-accent: #089994; /** Sfondo con colore di accento per elementi interattivi. */
+  --bs-color-background-accent-hover: #077f7b; /** Sfondo utilizzato su elementi interattivi di accento nello stato di :hover. */
+  --bs-color-background-muted: #f5f5f5; /** Sfondo con contrasto molto leggero, definisce sezioni di una pagina o paragrafi di testo. */
+  --bs-color-background-inverse: #ffffff; /** Sfondo invertito, utilizzato in combinazione con uno sfondo pagina/sezione di tipo primary, secondary  o con colori neutri. */
+  --bs-color-background-disabled: #d9dadb; /** Sfondo per elementi interattivi disabilitati/disattivati */
+  --bs-color-background-subtle: #d4d4d4; /** Sfondo chiaro, utilizzato per definire sezioni di una pagina */
+  --bs-color-background-emphasis: #17324d; /** Sfondo di enfasi, utilizzato per mettere in risalto precise sezioni di una pagina */
+  --bs-color-background-success: #008055; /** Sfondo per uno stato di successo, utilizzato per elementi interattivi o sfondo di componenti.  Il testo deve essere inverse */
+  --bs-color-background-success-light: #e5fbf4; /** Sfondo di successo per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse */
+  --bs-color-background-success-hover: #006644; /** Sfondo di successo, utilizzato per elementi interattivi nello stato di :hover */
+  --bs-color-background-success-active: #004d33; /** Sfondo di successo, utilizzato per elementi interattivi nello stato attivo e premuto. */
+  --bs-color-background-warning: #995c00; /** Sfondo di allerta, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse */
+  --bs-color-background-warning-light: #fbf2e5; /** Sfondo di allerta per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse */
+  --bs-color-background-warning-hover: #804d00; /** Sfondo di allerta, utilizzato per elementi interattivi nello stato di :hover */
+  --bs-color-background-warning-active: #663d00; /** Sfondo di allerta, utilizzato per elementi interattivi nello stato attivo e premuto. */
+  --bs-color-background-danger: #cc334d; /** Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse. */
+  --bs-color-background-danger-light: #fbeff1; /** Sfondo di pericolo o errore per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse */
+  --bs-color-background-danger-hover: #992639; /** Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato di :hover. */
+  --bs-color-background-danger-active: #661a26; /** Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato attivo e premuto. */
+  --bs-color-border-primary: #297a38; /** Bordo primario, utilizzato per elementi interattivi cliccabili. */
+  --bs-color-border-primary-hover: #184921; /** Bordo primario per stato interattivo hover */
+  --bs-color-border-primary-active: #08170a; /** Bordo primario per stato interattivo attivo e premuto. */
+  --bs-color-border-secondary: #5c6f82; /** Bordo secondario, utilizzato per elementi interattivi cliccabili */
+  --bs-color-border-secondary-hover: #2f475e; /** Bordo secondario per stato interattivo hover */
+  --bs-color-border-secondary-active: #17324d; /** Bordo secondario per stato interattivo attivo e premuto. */
+  --bs-color-border-inverse: #ffffff; /** Bordo invertito, utilizzato su sfondo a contrasto di tipo primary, secondary o emphasis */
+  --bs-color-border-disabled: #d9dadb; /** Bordo per elementi interattivi disabilitati */
+  --bs-color-border-subtle: #c5c7c9; /** Bordo separatore, delimita le sezioni di una pagina, componenti o singoli elementi */
+  --bs-color-border-success: #008055; /** Bordo di successo, utilizzato per elementi interattivi o statici (alert, notifications, etc) */
+  --bs-color-border-success-hover: #006644; /** Bordo di successo per stato interattivo hover */
+  --bs-color-border-success-active: #004d33; /** Bordo di successo per stato interattivo attivo e premuto. */
+  --bs-color-border-warning: #995c00; /** Bordo di allerta, utilizzato per elementi interattivi o statici (vedi esempio success) */
+  --bs-color-border-warning-hover: #804d00; /** Bordo di allerta per stato interattivo hover */
+  --bs-color-border-warning-active: #663d00; /** Bordo di allerta per stato interattivo attivo e premuto. */
+  --bs-color-border-danger: #cc334d; /** Colore di un bordo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o statici (vedi esempio success) */
+  --bs-color-border-danger-hover: #992639; /** Colore di sfondo che avvisa di un pericolo o errore per stato interattivo :hover. */
+  --bs-color-border-danger-active: #661a26; /** Colore di sfondo che avvisa di un pericolo o errore per stato attivo e premuto. */
+  --bs-color-text-base: #1a1a1a; /** Corpo pagina base */
+  --bs-color-text-primary: #297a38; /** Testo con link */
+  --bs-color-text-secondary: #2f475e; /** Corpo pagina alternativo, contenuti di dettaglio, testo button secondary */
+  --bs-color-text-muted: #5c6f82; /** Testo di supporto per contenuti molto brevi */
+  --bs-color-text-disabled: #5c6f82; /** Testo disabilitato */
+  --bs-color-text-success: #008055; /** Testo di successo, può essere anche interattivo (button, link) */
+  --bs-color-text-success-hover: #006644; /** Testo di successo interattivo nello stato hover */
+  --bs-color-text-success-active: #004d33; /** Testo di successo interattivo nello stato attivo e premuto. */
+  --bs-color-text-warning: #995c00; /** Testo di allerta, può essere anche interattivo (button, link) */
+  --bs-color-text-warning-hover: #804d00; /** Testo di allerta interattivo nello stato hover */
+  --bs-color-text-warning-active: #663d00; /** Testo di allerta interattivo nello stato attivo e premuto. */
+  --bs-color-text-danger: #cc334d; /** Colore del testo per problema o errore, può essere anche interattivo (link, button) */
+  --bs-color-text-danger-hover: #992639; /** Colore del testo per problema o errore interattivo nello stato hover */
+  --bs-color-text-danger-active: #661a26; /** Colore del testo per problema o errore interattivo nello stato attivo e premuto. */
+  --bs-color-text-inverse: #ffffff; /** Testo invertito per sfondi a contrasto (primary, secondary, emphasis) */
+  --bs-color-text-accent: #089994; /** Testo di accento, alternativo al primary per elementi interattivi su sfondi a contrasto */
+  --bs-color-link-base: #297a38; /** Colore base per i link */
+  --bs-color-link-hover: #184921; /** Colore per i link nello stato hover */
+  --bs-color-link-active: #08170a; /** Colore per i link nello stato active */
+  --bs-color-link-secondary: #2f475e; /** Colore del link secondario, richiede sempre la sottolineatura. */
+  --bs-color-link-secondary-hover: #17324d; /** Testo del button secondary nello stato hover */
+  --bs-color-link-secondary-active: #17324d; /** Testo del button secondary nello stato attivo e premuto. */
+  --bs-color-link-inverse: #ffffff; /** Colore per i link invertiti */
+  --bs-color-link-disabled: #5c6f82; /** Colore per i link disabilitati */
+  --bs-color-link-accent: #089994; /** Colore di risalto per un link */
+  --bs-color-link-accent-hover: #077f7b; /** Colore di risalto per un link in stato hover. */
+  --bs-color-outline-focus: #1a1a1a; /** Colore di evidenziazione dello stato focus */
+  --bs-color-shadow-whisper: rgba(0, 0, 0, 0.05); /** Colore ombreggiatura leggermente visibile */
+  --bs-color-shadow-soft: rgba(0, 0, 0, 0.1); /** Colore ombreggiatura chiara */
+  --bs-color-shadow-dark: rgba(0, 0, 0, 0.15); /** Colore ombreggiatura molto visibile */
+  --bs-color-green-50: #e4f6e8;
+  --bs-color-green-100: #caedd0;
+  --bs-color-green-200: #98dca4;
+  --bs-color-green-300: #62ca76;
+  --bs-color-green-400: #3bb050;
+  --bs-color-green-500: #297a38;
+  --bs-color-green-600: #21632d;
+  --bs-color-green-700: #184921;
+  --bs-color-green-800: #113217;
+  --bs-color-green-900: #08170a;
+  --bs-font-sans: 'Titillium Web', sans-serif;
+  --bs-font-serif: Lora; /** Famiglia font con grazie */
+  --bs-font-mono: Roboto Mono; /** Famiglia font mono spaziata */
+  --bs-font-weight-extra-light: Extra Light;
+  --bs-font-weight-extra-light-italic: Extra Light Italic;
+  --bs-font-weight-light: Light;
+  --bs-font-weight-light-italic: Light Italic;
+  --bs-font-weight-regular: Regular;
+  --bs-font-weight-regular-italic: Regular Italic;
+  --bs-font-weight-semibold: SemiBold;
+  --bs-font-weight-semibold-italic: SemiBold Italic;
+  --bs-font-weight-bold: Bold;
+  --bs-font-weight-bold-italic: Bold Italic;
+  --bs-font-weight-black: Black;
+  --bs-border-base: 1; /** Dimensione base di un bordo. */
+  --bs-border-double: 2; /** Dimensione doppia di un bordo. */
+  --bs-border-thick: 4; /** Dimensione spessa di un bordo. */
+  --bs-border-broad: 8; /** Dimensione larga di un bordo. */
+  --bs-font-size-1: 12; /** Dimensione della scala tipografica */
+  --bs-font-size-2: 14; /** Dimensione della scala tipografica */
+  --bs-font-size-3: 16; /** Dimensione della scala tipografica */
+  --bs-font-size-4: 18; /** Dimensione della scala tipografica */
+  --bs-font-size-5: 20; /** Dimensione della scala tipografica */
+  --bs-font-size-6: 24; /** Dimensione della scala tipografica */
+  --bs-font-size-7: 28; /** Dimensione della scala tipografica */
+  --bs-font-size-8: 32; /** Dimensione della scala tipografica */
+  --bs-font-size-9: 40; /** Dimensione della scala tipografica */
+  --bs-font-size-10: 48; /** Dimensione della scala tipografica */
+  --bs-font-size-11: 56; /** Dimensione della scala tipografica */
+  --bs-line-height-0: 12; /** Dimensione della scala tipografica */
+  --bs-line-height-1: 16; /** Dimensione della scala tipografica */
+  --bs-line-height-2: 20; /** Dimensione della scala tipografica */
+  --bs-line-height-3: 24; /** Dimensione della scala tipografica */
+  --bs-line-height-4: 28; /** Dimensione della scala tipografica */
+  --bs-line-height-5: 32; /** Dimensione della scala tipografica */
+  --bs-line-height-6: 36; /** Dimensione della scala tipografica */
+  --bs-line-height-7: 40; /** Dimensione della scala tipografica */
+  --bs-line-height-8: 48; /** Dimensione della scala tipografica */
+  --bs-line-height-9: 56; /** Dimensione della scala tipografica */
+  --bs-line-height-10: 64; /** Dimensione della scala tipografica */
+  --bs-line-height-11: 72; /** Dimensione della scala tipografica */
+  --bs-font-tracking-short: -1; /** Spazio tra le lettere di un font */
+  --bs-font-tracking-narrow: -1.2999999523162842; /** Spazio tra le lettere di un font */
+  --bs-font-tracking-tight: -2; /** Spazio tra le lettere di un font */
+  --bs-font-tracking-normal: 0; /** Spazio tra le lettere di un font */
+  --bs-spacing-2x: -2;
+  --bs-spacing-1x: -1;
+  --bs-spacing-0x: 0; /** Dimensione baseline */
+  --bs-spacing-0-5x: 2; /** Dimensione baseline */
+  --bs-spacing-1x: 4; /** Dimensione baseline */
+  --bs-spacing-2x: 8; /** 2x la dimensione della baseline */
+  --bs-spacing-3x: 12; /** 3x la dimensione della baseline */
+  --bs-spacing-4x: 16; /** 4x la dimensione della baseline */
+  --bs-spacing-5x: 20; /** 5x la dimensione della baseline */
+  --bs-spacing-6x: 24; /** 6x la dimensione della baseline */
+  --bs-spacing-8x: 32; /** 8x la dimensione della baseline */
+  --bs-spacing-10x: 40; /** 10x la dimensione della baseline */
+  --bs-spacing-12x: 48; /** 12x la dimensione della baseline */
+  --bs-spacing-14x: 56; /** 14x la dimensione della baseline */
+  --bs-spacing-16x: 64; /** 16x la dimensione della baseline */
+  --bs-spacing-24x: 96; /** 24x la dimensione della baseline */
+  --bs-spacing-4xs: 2; /** Valore 3-extra-small nella scala dimensionale per la spaziatura */
+  --bs-spacing-3xs: 4; /** Valore 3-extra-small nella scala dimensionale per la spaziatura */
+  --bs-spacing-xxs: 8; /** Valore extra-extra small nella scala dimensionale per la spaziatura */
+  --bs-spacing-xs: 12; /** Valore extra small nella scala dimensionale per la spaziatura */
+  --bs-spacing-s: 16; /** Valore small nella scala dimensionale per la spaziatura */
+  --bs-spacing-m: 24; /** Valore medium nella scala dimensionale per la spaziatura */
+  --bs-spacing-l: 32; /** Valore large nella scala dimensionale per la spaziatura */
+  --bs-spacing-xl: 40; /** Valore extra-large nella scala dimensionale per la spaziatura */
+  --bs-spacing-xxl: 48; /** Valore extra-extra-large nella scala dimensionale per la spaziatura */
+  --bs-spacing-3xl: 96; /** Valore 3-extra-large nella scala dimensionale per la spaziatura */
+  --bs-radius-smooth: 4; /** Raggio di un bordo */
+  --bs-radius-circle: 80; /** Raggio di un bordo */
+  --bs-radius-rounded: 40; /** Raggio di un bordo */
+  --bs-shadow-blur-s: 4; /** Raggio di sfocatura dell'ombreggiatura */
+  --bs-shadow-blur-m: 16; /** Raggio di sfocatura dell'ombreggiatura */
+  --bs-shadow-blur-l: 48; /** Raggio di sfocatura dell'ombreggiatura */
+  --bs-shadow-offset-s: 4; /** Offset dell'ombreggiatura */
+  --bs-shadow-offset-m: 8; /** Offset dell'ombreggiatura */
+  --bs-shadow-offset-l: 16; /** Offset dell'ombreggiatura */
+  --bs-theme-italia-base: #297a38; /** Colore base del tema */
+  --bs-theme-italia-light: #ffffff; /** Colore del tema chiaro */
+  --bs-theme-italia-lighter: #e4f6e8; /** Colore del tema molto chiaro */
+  --bs-theme-italia-subtle: #004d99; /** Colore del tema meno saturo */
+  --bs-theme-italia-muted: #004080; /** Colore del tema molto meno saturo */
+  --bs-theme-italia-deep: #003366; /** Colore del tema scuro */
+  --bs-icon-size-xs: 16; /** Dimensione icona molto piccola */
+  --bs-icon-size-s: 24; /** Dimensione icona piccola */
+  --bs-icon-size-m: 32; /** Dimensione icona media */
+  --bs-icon-size-l: 48; /** Dimensione icona grande */
+  --bs-icon-size-xl: 64; /** Dimensione icona molto grande */
+  --bs-spacing-spacing-stack-3xs: var(--bs-spacing-3xs);
+  --bs-spacing-spacing-stack-xxs: var(--bs-spacing-xxs);
+  --bs-spacing-spacing-stack-xs: var(--bs-spacing-xs);
+  --bs-spacing-spacing-stack-s: var(--bs-spacing-s);
+  --bs-spacing-spacing-stack-m: var(--bs-spacing-m);
+  --bs-spacing-spacing-stack-l: var(--bs-spacing-l);
+  --bs-spacing-spacing-stack-xl: var(--bs-spacing-xl);
+  --bs-spacing-spacing-stack-xxl: var(--bs-spacing-xxl);
+  --bs-spacing-spacing-stack-3xl: var(--bs-spacing-3xl);
+  --bs-spacing-spacing-inline-3xs: var(--bs-spacing-3xs);
+  --bs-spacing-spacing-inline-xxs: var(--bs-spacing-xxs);
+  --bs-spacing-spacing-inline-xs: var(--bs-spacing-xs);
+  --bs-spacing-spacing-inline-s: var(--bs-spacing-s);
+  --bs-spacing-spacing-inline-m: var(--bs-spacing-m);
+  --bs-spacing-spacing-inline-l: var(--bs-spacing-l);
+  --bs-spacing-spacing-inline-xl: var(--bs-spacing-xl);
+  --bs-spacing-spacing-inline-xxl: var(--bs-spacing-xxl);
+  --bs-spacing-spacing-inline-3xl: var(--bs-spacing-3xl);
+  --bs-spacing-spacing-inset-4xs: var(--bs-spacing-4xs);
+  --bs-spacing-spacing-inset-3xs: var(--bs-spacing-3xs);
+  --bs-spacing-spacing-inset-xxs: var(--bs-spacing-xxs);
+  --bs-spacing-spacing-inset-xs: var(--bs-spacing-xs);
+  --bs-spacing-spacing-inset-s: var(--bs-spacing-s);
+  --bs-spacing-spacing-inset-m: var(--bs-spacing-m);
+  --bs-spacing-spacing-inset-l: var(--bs-spacing-l);
+  --bs-spacing-spacing-inset-xl: var(--bs-spacing-xl);
+  --bs-spacing-spacing-inset-xxl: var(--bs-spacing-xxl);
+  --bs-spacing-spacing-inset-3xl: var(--bs-spacing-3xl);
+  --bs-icon-default: var(--bs-color-text-base); /** Colore icona di base */
+  --bs-icon-primary: var(--bs-color-background-primary); /** Colore icona con link */
+  --bs-icon-primary-hover: var(--bs-color-background-primary-hover); /** Colore icona con link status hover */
+  --bs-icon-primary-active: var(--bs-color-background-primary-active); /** Colore icona con link status attivo */
+  --bs-icon-secondary: var(--bs-color-background-secondary); /** Colore icona di supporto */
+  --bs-icon-secondary-hover: var(--bs-color-background-secondary-hover); /** Colore icona di supporto - status hover */
+  --bs-icon-secondary-active: var(--bs-color-background-secondary-active); /** Colore icona di supporto - status attivo */
+  --bs-icon-success: var(--bs-color-background-success); /** Colore icona di supporto per azioni avvenute con successo */
+  --bs-icon-success-hover: var(--bs-color-background-success-hover); /** Colore icona di supporto per azioni avvenute con successo - status hover */
+  --bs-icon-success-active: var(--bs-color-background-success-active); /** Colore icona di supporto per azioni avvenute con successo - status attivo */
+  --bs-icon-warning: var(--bs-color-background-warning); /** Colore icona di supporto per comunicazioni che richiedono attenzione */
+  --bs-icon-warning-hover: var(--bs-color-background-warning-hover); /** Colore icona di supporto per comunicazioni che richiedono attenzione - status hover */
+  --bs-icon-warning-active: var(--bs-color-background-warning-active); /** Colore icona di supporto per comunicazioni che richiedono attenzione - status attivo */
+  --bs-icon-danger: var(--bs-color-background-danger); /** Colore icona di supporto per azioni non andate a buon fine - status hover */
+  --bs-icon-danger-hover: var(--bs-color-background-danger-hover); /** Colore icona di supporto per azioni non andate a buon fine - status hover */
+  --bs-icon-danger-active: var(--bs-color-background-danger-active); /** Colore icona di supporto per azioni non andate a buon fine - status hover */
+  --bs-icon-inverse: var(--bs-color-background-inverse); /** Colore icona dsabilitata */
+  --bs-icon-disabled: var(--bs-color-text-disabled); /** Colore icona disabilitata. */
+  --bs-code-font: var(--bs-font-mono); /** La famiglia di font predefinita per i blocchi di codice. */
+  --bs-data-font: var(--bs-font-mono); /** La famiglia di font predefinita per il contenuto della visualizzazione dei dati. */
+  --bs-heading-1-font-size: var(--bs-font-size-9); /** La dimensione di font predefinita per il titolo 1. */
+  --bs-heading-1-font-size-l: var(--bs-font-size-10); /** La dimensione di font predefinita per il titolo 1 grande. */
+  --bs-heading-2-font-size: var(--bs-font-size-8); /** La dimensione di font predefinita per il titolo 2. */
+  --bs-heading-2-font-size-l: var(--bs-font-size-9); /** La dimensione di font predefinita per il titolo 2 grande. */
+  --bs-heading-3-font-size-l: var(--bs-font-size-8); /** La dimensione di font predefinita per il titolo 3 grande. */
+  --bs-heading-3-font-size: var(--bs-font-size-7); /** La dimensione di font predefinita per il titolo 3. */
+  --bs-heading-4-font-size: var(--bs-font-size-6); /** La dimensione di font predefinita per il titolo 4. */
+  --bs-heading-4-font-size-l: var(--bs-font-size-7); /** La dimensione di font predefinita per il titolo 4 grande. */
+  --bs-heading-5-font-size: var(--bs-font-size-5); /** La dimensione di font predefinita per il titolo 5. */
+  --bs-heading-5-font-size-l: var(--bs-font-size-6); /** La dimensione di font predefinita per il titolo 5 grande. */
+  --bs-heading-6-font-size: var(--bs-font-size-3); /** La dimensione di font predefinita per il titolo 6. */
+  --bs-heading-6-font-size-l: var(--bs-font-size-4); /** La dimensione di font predefinita per il titolo 6 grande. */
+  --bs-body-font-size: var(--bs-font-size-3); /** La dimensione di font predefinita per il corpo del testo. */
+  --bs-body-font-size-l: var(--bs-font-size-4); /** La dimensione di font predefinita per il corpo del testo grande. */
+  --bs-caption-font-size: var(--bs-font-size-2); /** La dimensione di font predefinita per le didascalie. */
+  --bs-lead-font-size: var(--bs-font-size-5); /** La dimensione di font predefinita per il testo in primo piano. */
+  --bs-lead-font-size-l: var(--bs-font-size-6); /** La dimensione di font predefinita per il testo in primo piano grande. */
+  --bs-label-font-size-xs: var(--bs-font-size-1); /** La dimensione di font predefinita per le etichette molto piccole. */
+  --bs-label-font-size-s: var(--bs-font-size-2); /** La dimensione di font predefinita per le etichette piccole. */
+  --bs-label-font-size: var(--bs-font-size-3); /** La dimensione di font predefinita per le etichette medie. */
+  --bs-label-font-size-l: var(--bs-font-size-4); /** La dimensione di font predefinita per le etichette grandi. */
+}

@@ -1,0 +1,2814 @@
+{
+  "color": {
+    "background": {
+      "primary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.16078431904315948,
+            0.47843137383461,
+            0.21960784494876862
+          ],
+          "alpha": 1,
+          "hex": "#297A38"
+        },
+        "$description": "Sfondo primario, utilizzato per elementi interattivi (buttons, links) ed elementi caratterizzati con l’identità visiva.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1790",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:e2bc3bdeb0d5e518fb7afdeaa7d9a83c982deb4f/-1:-1",
+            "targetVariableName": "color/green/500",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "primary-light": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Sfondo con contrasto leggero, utilizzato come alternativa al colore primario per elementi interattivi.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1791",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:2b9139245d8ad066e9d57487285dc03b1dd942cc/-1:-1",
+            "targetVariableName": "color/white",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "primary-lighter": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8941176533699036,
+            0.9647058844566345,
+            0.9098039269447327
+          ],
+          "alpha": 1,
+          "hex": "#E4F6E8"
+        },
+        "$description": "Sfondo di colore primario con contrasto ridotto, definisce una sezione o una parte di essa nel contesto della pagina.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1792",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:6e8a2beee55acb8b374a822ac8e8e6b0414bd809/-1:-1",
+            "targetVariableName": "color/green/50",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "primary-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0941176488995552,
+            0.2862745225429535,
+            0.12941177189350128
+          ],
+          "alpha": 1,
+          "hex": "#184921"
+        },
+        "$description": "Sfondo utilizzato su componenti primari interattivi nello stato di :hover.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1793",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:386508546be37dd83718f81bc068f8c0a08bc1fe/-1:-1",
+            "targetVariableName": "color/green/700",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "primary-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0313725508749485,
+            0.09019608050584793,
+            0.03921568766236305
+          ],
+          "alpha": 1,
+          "hex": "#08170A"
+        },
+        "$description": "Sfondo utilizzato su componenti primari interattivi nello stato attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1794",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:6a9dc2dbf242dec76d3a0c7efb7df0e8ccc4d84b/-1:-1",
+            "targetVariableName": "color/green/900",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "primary-muted": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0941176488995552,
+            0.2862745225429535,
+            0.12941177189350128
+          ],
+          "alpha": 1,
+          "hex": "#184921"
+        },
+        "$description": "Sfondo utilizzato su sezioni di pagina.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1795",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:386508546be37dd83718f81bc068f8c0a08bc1fe/-1:-1",
+            "targetVariableName": "color/green/700",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "primary-deep": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.06666667014360428,
+            0.19607843458652496,
+            0.09019608050584793
+          ],
+          "alpha": 1,
+          "hex": "#113217"
+        },
+        "$description": "Sfondo utilizzato su sezioni di pagina.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1796",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:6bf5c8e17ba0658a902b7ebdb8cbde99cb32ef38/-1:-1",
+            "targetVariableName": "color/green/800",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3607843220233917,
+            0.43529412150382996,
+            0.5098039507865906
+          ],
+          "alpha": 1,
+          "hex": "#5C6F82"
+        },
+        "$description": "Sfondo alternativo, utilizzato per elementi interattivi secondari o per sezioni di una pagina.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1797",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:457159de710be115269d81f714831102c881963a/-1:-1",
+            "targetVariableName": "color/slate/44",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.27843138575553894,
+            0.3686274588108063
+          ],
+          "alpha": 1,
+          "hex": "#2F475E"
+        },
+        "$description": "Sfondo utilizzato su elementi interattivi secondari nello stato di :hover.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1798",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:d5bbed37829cb3431d3698577a8dd224a63a0284/-1:-1",
+            "targetVariableName": "color/slate/28",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.09019608050584793,
+            0.19607843458652496,
+            0.3019607961177826
+          ],
+          "alpha": 1,
+          "hex": "#17324D"
+        },
+        "$description": "Sfondo utilizzato su elementi interattivi secondari nello stato attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1799",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ef4bcc82b75e3430d1dab9a32ec777c2cecc1caa/-1:-1",
+            "targetVariableName": "color/slate/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary-light": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6392157077789307,
+            0.6784313917160034,
+            0.7176470756530762
+          ],
+          "alpha": 1,
+          "hex": "#A3ADB7"
+        },
+        "$description": "Sfondo colore secondario chiaro.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1800",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:76546d57b366119bf253fbc72cfb4161fb7889c5/-1:-1",
+            "targetVariableName": "color/slate/68",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary-lighter": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9215686321258545,
+            0.9254902005195618,
+            0.929411768913269
+          ],
+          "alpha": 1,
+          "hex": "#EBECED"
+        },
+        "$description": "Sfondo colore secondario molto chiaro.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1801",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:5348fbc7e74555d190cc8ad0dfceb11f4e55d325/-1:-1",
+            "targetVariableName": "color/slate/93",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "accent": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0313725508749485,
+            0.6000000238418579,
+            0.5803921818733215
+          ],
+          "alpha": 1,
+          "hex": "#089994"
+        },
+        "$description": "Sfondo con colore di accento per elementi interattivi.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1802",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:b7bb3c6dc88557ba786c52d747b24447cd0688e7/-1:-1",
+            "targetVariableName": "color/teal/32",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "accent-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.027450980618596077,
+            0.49803921580314636,
+            0.48235294222831726
+          ],
+          "alpha": 1,
+          "hex": "#077F7B"
+        },
+        "$description": "Sfondo utilizzato su elementi interattivi di accento nello stato di :hover.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1803",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:92d060458da48af37965b1876bf30e941cb49bdd/-1:-1",
+            "targetVariableName": "color/teal/26",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "muted": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9607843160629272,
+            0.9607843160629272,
+            0.9607843160629272
+          ],
+          "alpha": 1,
+          "hex": "#F5F5F5"
+        },
+        "$description": "Sfondo con contrasto molto leggero, definisce sezioni di una pagina o paragrafi di testo.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1804",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:d2d2c1bce83a234c95ce104359486546249453fc/-1:-1",
+            "targetVariableName": "color/gray/96",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Sfondo invertito, utilizzato in combinazione con uno sfondo pagina/sezione di tipo primary, secondary  o con colori neutri.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1805",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:2b9139245d8ad066e9d57487285dc03b1dd942cc/-1:-1",
+            "targetVariableName": "color/white",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8509804010391235,
+            0.8549019694328308,
+            0.8588235378265381
+          ],
+          "alpha": 1,
+          "hex": "#D9DADB"
+        },
+        "$description": "Sfondo per elementi interattivi disabilitati/disattivati",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1806",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:1cdddaefdf911c08bc69f6200305825af34b96cd/-1:-1",
+            "targetVariableName": "color/slate/85",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8313725590705872,
+            0.8313725590705872,
+            0.8313725590705872
+          ],
+          "alpha": 1,
+          "hex": "#D4D4D4"
+        },
+        "$description": "Sfondo chiaro, utilizzato per definire sezioni di una pagina",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1807",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:dc8fa6fc7d3b7fa0406babc45320b77309461413/-1:-1",
+            "targetVariableName": "color/gray/83",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.09019608050584793,
+            0.19607843458652496,
+            0.3019607961177826
+          ],
+          "alpha": 1,
+          "hex": "#17324D"
+        },
+        "$description": "Sfondo di enfasi, utilizzato per mettere in risalto precise sezioni di una pagina",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1808",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ef4bcc82b75e3430d1dab9a32ec777c2cecc1caa/-1:-1",
+            "targetVariableName": "color/slate/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "success": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.501960813999176,
+            0.3333333432674408
+          ],
+          "alpha": 1,
+          "hex": "#008055"
+        },
+        "$description": "Sfondo per uno stato di successo, utilizzato per elementi interattivi o sfondo di componenti.  Il testo deve essere inverse",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1809",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:64265e22d3072e0afa4618b081aa5c5bb6093219/-1:-1",
+            "targetVariableName": "color/emerald/25",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "success-light": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8968749642372131,
+            0.9831250309944153,
+            0.9549999833106995
+          ],
+          "alpha": 1,
+          "hex": "#E5FBF4"
+        },
+        "$description": "Sfondo di successo per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1810",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:087ac5ba4325cbf73283cbbeb1433fb4b52846fb/-1:-1",
+            "targetVariableName": "color/emerald/94",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "success-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.4000000059604645,
+            0.2666666805744171
+          ],
+          "alpha": 1,
+          "hex": "#006644"
+        },
+        "$description": "Sfondo di successo, utilizzato per elementi interattivi nello stato di :hover",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1811",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:534424f3ffcd42d9587cad4947abab71466f29d2/-1:-1",
+            "targetVariableName": "color/emerald/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "success-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.3019607961177826,
+            0.20000000298023224
+          ],
+          "alpha": 1,
+          "hex": "#004D33"
+        },
+        "$description": "Sfondo di successo, utilizzato per elementi interattivi nello stato attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1812",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:87d2c82719cbb99f3ae25586ee32ce373cdb68c8/-1:-1",
+            "targetVariableName": "color/emerald/15",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "warning": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6000000238418579,
+            0.3607843220233917,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#995C00"
+        },
+        "$description": "Sfondo di allerta, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1813",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:723ded164057d50f7f647105b3e18e5cffdb1037/-1:-1",
+            "targetVariableName": "color/orange/30",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "warning-light": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9831250309944153,
+            0.9493750333786011,
+            0.8968749642372131
+          ],
+          "alpha": 1,
+          "hex": "#FBF2E5"
+        },
+        "$description": "Sfondo di allerta per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1814",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:102b5ddd8e876a69fbb3ea433f26fb9dab8675f6/-1:-1",
+            "targetVariableName": "color/orange/94",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "warning-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.501960813999176,
+            0.3019607961177826,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#804D00"
+        },
+        "$description": "Sfondo di allerta, utilizzato per elementi interattivi nello stato di :hover",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1815",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:3b3be0603496ac5653f237a3b2a042e471dcba50/-1:-1",
+            "targetVariableName": "color/orange/25",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "warning-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4000000059604645,
+            0.239215686917305,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#663D00"
+        },
+        "$description": "Sfondo di allerta, utilizzato per elementi interattivi nello stato attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1816",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:19e1c46ff043fdc0f8409a9ea2825c31f9070341/-1:-1",
+            "targetVariableName": "color/orange/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "danger": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.800000011920929,
+            0.20000000298023224,
+            0.3019607961177826
+          ],
+          "alpha": 1,
+          "hex": "#CC334D"
+        },
+        "$description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1817",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:1fda2f929529702e1f3fc7da274235490c337a96/-1:-1",
+            "targetVariableName": "color/red/50",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "danger-light": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9843137264251709,
+            0.9372549057006836,
+            0.9450980424880981
+          ],
+          "alpha": 1,
+          "hex": "#FBEFF1"
+        },
+        "$description": "Sfondo di pericolo o errore per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1818",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:b725b5feb4d52884b0cc6b0ab0652a3c7fccaca0/-1:-1",
+            "targetVariableName": "color/red/96",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "danger-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6000000238418579,
+            0.14901961386203766,
+            0.2235294133424759
+          ],
+          "alpha": 1,
+          "hex": "#992639"
+        },
+        "$description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato di :hover.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1819",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:8e72f29663469100e25bf522824b60e5656b8e9d/-1:-1",
+            "targetVariableName": "color/red/37",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "danger-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4000000059604645,
+            0.10196078568696976,
+            0.14901961386203766
+          ],
+          "alpha": 1,
+          "hex": "#661A26"
+        },
+        "$description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1820",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9cf7b1dc89f1a718e7831ceed78b8b09c333188c/-1:-1",
+            "targetVariableName": "color/red/25",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "border": {
+      "primary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.16078431904315948,
+            0.47843137383461,
+            0.21960784494876862
+          ],
+          "alpha": 1,
+          "hex": "#297A38"
+        },
+        "$description": "Bordo primario, utilizzato per elementi interattivi cliccabili.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1821",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:e2bc3bdeb0d5e518fb7afdeaa7d9a83c982deb4f/-1:-1",
+            "targetVariableName": "color/green/500",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "primary-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0941176488995552,
+            0.2862745225429535,
+            0.12941177189350128
+          ],
+          "alpha": 1,
+          "hex": "#184921"
+        },
+        "$description": "Bordo primario per stato interattivo hover",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1822",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:386508546be37dd83718f81bc068f8c0a08bc1fe/-1:-1",
+            "targetVariableName": "color/green/700",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "primary-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0313725508749485,
+            0.09019608050584793,
+            0.03921568766236305
+          ],
+          "alpha": 1,
+          "hex": "#08170A"
+        },
+        "$description": "Bordo primario per stato interattivo attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1823",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:6a9dc2dbf242dec76d3a0c7efb7df0e8ccc4d84b/-1:-1",
+            "targetVariableName": "color/green/900",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3607843220233917,
+            0.43529412150382996,
+            0.5098039507865906
+          ],
+          "alpha": 1,
+          "hex": "#5C6F82"
+        },
+        "$description": "Bordo secondario, utilizzato per elementi interattivi cliccabili",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1824",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:457159de710be115269d81f714831102c881963a/-1:-1",
+            "targetVariableName": "color/slate/44",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.27843138575553894,
+            0.3686274588108063
+          ],
+          "alpha": 1,
+          "hex": "#2F475E"
+        },
+        "$description": "Bordo secondario per stato interattivo hover",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1825",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:d5bbed37829cb3431d3698577a8dd224a63a0284/-1:-1",
+            "targetVariableName": "color/slate/28",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.09019608050584793,
+            0.19607843458652496,
+            0.3019607961177826
+          ],
+          "alpha": 1,
+          "hex": "#17324D"
+        },
+        "$description": "Bordo secondario per stato interattivo attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1826",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ef4bcc82b75e3430d1dab9a32ec777c2cecc1caa/-1:-1",
+            "targetVariableName": "color/slate/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Bordo invertito, utilizzato su sfondo a contrasto di tipo primary, secondary o emphasis",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1827",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:2b9139245d8ad066e9d57487285dc03b1dd942cc/-1:-1",
+            "targetVariableName": "color/white",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8509804010391235,
+            0.8549019694328308,
+            0.8588235378265381
+          ],
+          "alpha": 1,
+          "hex": "#D9DADB"
+        },
+        "$description": "Bordo per elementi interattivi disabilitati",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1828",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:1cdddaefdf911c08bc69f6200305825af34b96cd/-1:-1",
+            "targetVariableName": "color/slate/85",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.772549033164978,
+            0.7803921699523926,
+            0.7882353067398071
+          ],
+          "alpha": 1,
+          "hex": "#C5C7C9"
+        },
+        "$description": "Bordo separatore, delimita le sezioni di una pagina, componenti o singoli elementi",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1829",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:4d1a2313472f74f87bf34bb9fb760f086a4417d0/-1:-1",
+            "targetVariableName": "color/slate/78",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "success": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.501960813999176,
+            0.3333333432674408
+          ],
+          "alpha": 1,
+          "hex": "#008055"
+        },
+        "$description": "Bordo di successo, utilizzato per elementi interattivi o statici (alert, notifications, etc)",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1830",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:64265e22d3072e0afa4618b081aa5c5bb6093219/-1:-1",
+            "targetVariableName": "color/emerald/25",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "success-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.4000000059604645,
+            0.2666666805744171
+          ],
+          "alpha": 1,
+          "hex": "#006644"
+        },
+        "$description": "Bordo di successo per stato interattivo hover",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1831",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:534424f3ffcd42d9587cad4947abab71466f29d2/-1:-1",
+            "targetVariableName": "color/emerald/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "success-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.3019607961177826,
+            0.20000000298023224
+          ],
+          "alpha": 1,
+          "hex": "#004D33"
+        },
+        "$description": "Bordo di successo per stato interattivo attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1832",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:87d2c82719cbb99f3ae25586ee32ce373cdb68c8/-1:-1",
+            "targetVariableName": "color/emerald/15",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "warning": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6000000238418579,
+            0.3607843220233917,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#995C00"
+        },
+        "$description": "Bordo di allerta, utilizzato per elementi interattivi o statici (vedi esempio success)",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1833",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:723ded164057d50f7f647105b3e18e5cffdb1037/-1:-1",
+            "targetVariableName": "color/orange/30",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "warning-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.501960813999176,
+            0.3019607961177826,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#804D00"
+        },
+        "$description": "Bordo di allerta per stato interattivo hover",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1834",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:3b3be0603496ac5653f237a3b2a042e471dcba50/-1:-1",
+            "targetVariableName": "color/orange/25",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "warning-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4000000059604645,
+            0.239215686917305,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#663D00"
+        },
+        "$description": "Bordo di allerta per stato interattivo attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1835",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:19e1c46ff043fdc0f8409a9ea2825c31f9070341/-1:-1",
+            "targetVariableName": "color/orange/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "danger": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.800000011920929,
+            0.20000000298023224,
+            0.3019607961177826
+          ],
+          "alpha": 1,
+          "hex": "#CC334D"
+        },
+        "$description": "Colore di un bordo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o statici (vedi esempio success)",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1836",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:1fda2f929529702e1f3fc7da274235490c337a96/-1:-1",
+            "targetVariableName": "color/red/50",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "danger-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6000000238418579,
+            0.14901961386203766,
+            0.2235294133424759
+          ],
+          "alpha": 1,
+          "hex": "#992639"
+        },
+        "$description": "Colore di sfondo che avvisa di un pericolo o errore per stato interattivo :hover.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1837",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:8e72f29663469100e25bf522824b60e5656b8e9d/-1:-1",
+            "targetVariableName": "color/red/37",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "danger-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4000000059604645,
+            0.10196078568696976,
+            0.14901961386203766
+          ],
+          "alpha": 1,
+          "hex": "#661A26"
+        },
+        "$description": "Colore di sfondo che avvisa di un pericolo o errore per stato attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1838",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9cf7b1dc89f1a718e7831ceed78b8b09c333188c/-1:-1",
+            "targetVariableName": "color/red/25",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "text": {
+      "base": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.10196078568696976,
+            0.10196078568696976,
+            0.10196078568696976
+          ],
+          "alpha": 1,
+          "hex": "#1A1A1A"
+        },
+        "$description": "Corpo pagina base",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1839",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9e9b6cd64108405ed5c95e843e054cc5a40f12d9/-1:-1",
+            "targetVariableName": "color/gray/10",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "primary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.16078431904315948,
+            0.47843137383461,
+            0.21960784494876862
+          ],
+          "alpha": 1,
+          "hex": "#297A38"
+        },
+        "$description": "Testo con link",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1840",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:e2bc3bdeb0d5e518fb7afdeaa7d9a83c982deb4f/-1:-1",
+            "targetVariableName": "color/green/500",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.27843138575553894,
+            0.3686274588108063
+          ],
+          "alpha": 1,
+          "hex": "#2F475E"
+        },
+        "$description": "Corpo pagina alternativo, contenuti di dettaglio, testo button secondary",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1841",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:d5bbed37829cb3431d3698577a8dd224a63a0284/-1:-1",
+            "targetVariableName": "color/slate/28",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "muted": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3607843220233917,
+            0.43529412150382996,
+            0.5098039507865906
+          ],
+          "alpha": 1,
+          "hex": "#5C6F82"
+        },
+        "$description": "Testo di supporto per contenuti molto brevi",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1842",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:457159de710be115269d81f714831102c881963a/-1:-1",
+            "targetVariableName": "color/slate/44",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3607843220233917,
+            0.43529412150382996,
+            0.5098039507865906
+          ],
+          "alpha": 1,
+          "hex": "#5C6F82"
+        },
+        "$description": "Testo disabilitato",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1843",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:457159de710be115269d81f714831102c881963a/-1:-1",
+            "targetVariableName": "color/slate/44",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "success": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.501960813999176,
+            0.3333333432674408
+          ],
+          "alpha": 1,
+          "hex": "#008055"
+        },
+        "$description": "Testo di successo, può essere anche interattivo (button, link)",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1844",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:64265e22d3072e0afa4618b081aa5c5bb6093219/-1:-1",
+            "targetVariableName": "color/emerald/25",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "success-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.4000000059604645,
+            0.2666666805744171
+          ],
+          "alpha": 1,
+          "hex": "#006644"
+        },
+        "$description": "Testo di successo interattivo nello stato hover",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1845",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:534424f3ffcd42d9587cad4947abab71466f29d2/-1:-1",
+            "targetVariableName": "color/emerald/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "success-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.3019607961177826,
+            0.20000000298023224
+          ],
+          "alpha": 1,
+          "hex": "#004D33"
+        },
+        "$description": "Testo di successo interattivo nello stato attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1846",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:87d2c82719cbb99f3ae25586ee32ce373cdb68c8/-1:-1",
+            "targetVariableName": "color/emerald/15",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "warning": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6000000238418579,
+            0.3607843220233917,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#995C00"
+        },
+        "$description": "Testo di allerta, può essere anche interattivo (button, link)",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1847",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:723ded164057d50f7f647105b3e18e5cffdb1037/-1:-1",
+            "targetVariableName": "color/orange/30",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "warning-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.501960813999176,
+            0.3019607961177826,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#804D00"
+        },
+        "$description": "Testo di allerta interattivo nello stato hover",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1848",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:3b3be0603496ac5653f237a3b2a042e471dcba50/-1:-1",
+            "targetVariableName": "color/orange/25",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "warning-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4000000059604645,
+            0.239215686917305,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#663D00"
+        },
+        "$description": "Testo di allerta interattivo nello stato attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1849",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:19e1c46ff043fdc0f8409a9ea2825c31f9070341/-1:-1",
+            "targetVariableName": "color/orange/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "danger": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.800000011920929,
+            0.20000000298023224,
+            0.3019607961177826
+          ],
+          "alpha": 1,
+          "hex": "#CC334D"
+        },
+        "$description": "Colore del testo per problema o errore, può essere anche interattivo (link, button)",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1850",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:1fda2f929529702e1f3fc7da274235490c337a96/-1:-1",
+            "targetVariableName": "color/red/50",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "danger-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6000000238418579,
+            0.14901961386203766,
+            0.2235294133424759
+          ],
+          "alpha": 1,
+          "hex": "#992639"
+        },
+        "$description": "Colore del testo per problema o errore interattivo nello stato hover",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1851",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:8e72f29663469100e25bf522824b60e5656b8e9d/-1:-1",
+            "targetVariableName": "color/red/37",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "danger-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4000000059604645,
+            0.10196078568696976,
+            0.14901961386203766
+          ],
+          "alpha": 1,
+          "hex": "#661A26"
+        },
+        "$description": "Colore del testo per problema o errore interattivo nello stato attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1852",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9cf7b1dc89f1a718e7831ceed78b8b09c333188c/-1:-1",
+            "targetVariableName": "color/red/25",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Testo invertito per sfondi a contrasto (primary, secondary, emphasis)",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1853",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:2b9139245d8ad066e9d57487285dc03b1dd942cc/-1:-1",
+            "targetVariableName": "color/white",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "accent": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0313725508749485,
+            0.6000000238418579,
+            0.5803921818733215
+          ],
+          "alpha": 1,
+          "hex": "#089994"
+        },
+        "$description": "Testo di accento, alternativo al primary per elementi interattivi su sfondi a contrasto",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1854",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:b7bb3c6dc88557ba786c52d747b24447cd0688e7/-1:-1",
+            "targetVariableName": "color/teal/32",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "link": {
+      "base": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.16078431904315948,
+            0.47843137383461,
+            0.21960784494876862
+          ],
+          "alpha": 1,
+          "hex": "#297A38"
+        },
+        "$description": "Colore base per i link",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1855",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:e2bc3bdeb0d5e518fb7afdeaa7d9a83c982deb4f/-1:-1",
+            "targetVariableName": "color/green/500",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0941176488995552,
+            0.2862745225429535,
+            0.12941177189350128
+          ],
+          "alpha": 1,
+          "hex": "#184921"
+        },
+        "$description": "Colore per i link nello stato hover",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1856",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:386508546be37dd83718f81bc068f8c0a08bc1fe/-1:-1",
+            "targetVariableName": "color/green/700",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0313725508749485,
+            0.09019608050584793,
+            0.03921568766236305
+          ],
+          "alpha": 1,
+          "hex": "#08170A"
+        },
+        "$description": "Colore per i link nello stato active",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1857",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:6a9dc2dbf242dec76d3a0c7efb7df0e8ccc4d84b/-1:-1",
+            "targetVariableName": "color/green/900",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.27843138575553894,
+            0.3686274588108063
+          ],
+          "alpha": 1,
+          "hex": "#2F475E"
+        },
+        "$description": "Colore del link secondario, richiede sempre la sottolineatura.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1858",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:d5bbed37829cb3431d3698577a8dd224a63a0284/-1:-1",
+            "targetVariableName": "color/slate/28",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.09019608050584793,
+            0.19607843458652496,
+            0.3019607961177826
+          ],
+          "alpha": 1,
+          "hex": "#17324D"
+        },
+        "$description": "Testo del button secondary nello stato hover",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1859",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ef4bcc82b75e3430d1dab9a32ec777c2cecc1caa/-1:-1",
+            "targetVariableName": "color/slate/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "secondary-active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.09019608050584793,
+            0.19607843458652496,
+            0.3019607961177826
+          ],
+          "alpha": 1,
+          "hex": "#17324D"
+        },
+        "$description": "Testo del button secondary nello stato attivo e premuto.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1860",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ef4bcc82b75e3430d1dab9a32ec777c2cecc1caa/-1:-1",
+            "targetVariableName": "color/slate/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Colore per i link invertiti",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1861",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:2b9139245d8ad066e9d57487285dc03b1dd942cc/-1:-1",
+            "targetVariableName": "color/white",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3607843220233917,
+            0.43529412150382996,
+            0.5098039507865906
+          ],
+          "alpha": 1,
+          "hex": "#5C6F82"
+        },
+        "$description": "Colore per i link disabilitati",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1862",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:457159de710be115269d81f714831102c881963a/-1:-1",
+            "targetVariableName": "color/slate/44",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "accent": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0313725508749485,
+            0.6000000238418579,
+            0.5803921818733215
+          ],
+          "alpha": 1,
+          "hex": "#089994"
+        },
+        "$description": "Colore di risalto per un link",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1863",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:b7bb3c6dc88557ba786c52d747b24447cd0688e7/-1:-1",
+            "targetVariableName": "color/teal/32",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "accent-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.027450980618596077,
+            0.49803921580314636,
+            0.48235294222831726
+          ],
+          "alpha": 1,
+          "hex": "#077F7B"
+        },
+        "$description": "Colore di risalto per un link in stato hover.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1864",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:92d060458da48af37965b1876bf30e941cb49bdd/-1:-1",
+            "targetVariableName": "color/teal/26",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "outline": {
+      "focus": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.10196078568696976,
+            0.10196078568696976,
+            0.10196078568696976
+          ],
+          "alpha": 1,
+          "hex": "#1A1A1A"
+        },
+        "$description": "Colore di evidenziazione dello stato focus",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1865",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9e9b6cd64108405ed5c95e843e054cc5a40f12d9/-1:-1",
+            "targetVariableName": "color/gray/10",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "shadow": {
+      "whisper": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0,
+            0
+          ],
+          "alpha": 0.05000000074505806,
+          "hex": "#000000"
+        },
+        "$description": "Colore ombreggiatura leggermente visibile",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1866",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:92103fd03a53a56f76bd30f512e40d1f7f8b66d4/-1:-1",
+            "targetVariableName": "color/black/05",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "soft": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0,
+            0
+          ],
+          "alpha": 0.10000000149011612,
+          "hex": "#000000"
+        },
+        "$description": "Colore ombreggiatura chiara",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1867",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:61f76d138d5fa52a6505e8a8a69ee047d27f5d09/-1:-1",
+            "targetVariableName": "color/black/10",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "dark": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0,
+            0
+          ],
+          "alpha": 0.15000000596046448,
+          "hex": "#000000"
+        },
+        "$description": "Colore ombreggiatura molto visibile",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1868",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:54a6239533cd09b8d9aecfd9dcd1163b7f7905f1/-1:-1",
+            "targetVariableName": "color/black/15",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    }
+  },
+  "theme": {
+    "italia": {
+      "base": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.16078431904315948,
+            0.47843137383461,
+            0.21960784494876862
+          ],
+          "alpha": 1,
+          "hex": "#297A38"
+        },
+        "$description": "Colore base del tema",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1869",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:e2bc3bdeb0d5e518fb7afdeaa7d9a83c982deb4f/-1:-1",
+            "targetVariableName": "color/green/500",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "light": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Colore del tema chiaro",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1870",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:2b9139245d8ad066e9d57487285dc03b1dd942cc/-1:-1",
+            "targetVariableName": "color/white",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "lighter": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8941176533699036,
+            0.9647058844566345,
+            0.9098039269447327
+          ],
+          "alpha": 1,
+          "hex": "#E4F6E8"
+        },
+        "$description": "Colore del tema molto chiaro",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1871",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:6e8a2beee55acb8b374a822ac8e8e6b0414bd809/-1:-1",
+            "targetVariableName": "color/green/50",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.3019607961177826,
+            0.6000000238418579
+          ],
+          "alpha": 1,
+          "hex": "#004D99"
+        },
+        "$description": "Colore del tema meno saturo",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1872",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:e70ff96068d81280071d35e4ab8aa033c95baa8b/-1:-1",
+            "targetVariableName": "color/blue/30",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "muted": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.250980406999588,
+            0.501960813999176
+          ],
+          "alpha": 1,
+          "hex": "#004080"
+        },
+        "$description": "Colore del tema molto meno saturo",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1873",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:d827f22ef6cd1a926240859706d69cfcd9948a43/-1:-1",
+            "targetVariableName": "color/blue/25",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "deep": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.20000000298023224,
+            0.4000000059604645
+          ],
+          "alpha": 1,
+          "hex": "#003366"
+        },
+        "$description": "Colore del tema scuro",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1874",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:5379861062a8cbaf4a8bdc7555b1ba7c17306a41/-1:-1",
+            "targetVariableName": "color/blue/20",
+            "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+            "targetVariableSetName": "global"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    }
+  },
+  "spacing": {
+    "4xs": {
+      "$type": "number",
+      "$value": 2,
+      "$description": "Valore 3-extra-small nella scala dimensionale per la spaziatura",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:1875",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:8abbb56eba6d2619a9c44a6f79f41f32c83dc6cc/-1:-1",
+          "targetVariableName": "spacing/0,5x",
+          "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+          "targetVariableSetName": "global"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "3xs": {
+      "$type": "number",
+      "$value": 4,
+      "$description": "Valore 3-extra-small nella scala dimensionale per la spaziatura",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:1876",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:68f58a6ee4ab218f7064eeb634ca908da28944bf/-1:-1",
+          "targetVariableName": "spacing/1x",
+          "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+          "targetVariableSetName": "global"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "xxs": {
+      "$type": "number",
+      "$value": 8,
+      "$description": "Valore extra-extra small nella scala dimensionale per la spaziatura",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:1877",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:02ddd39b80c53aa5ccdaaa263565f3ce4578e27f/-1:-1",
+          "targetVariableName": "spacing/2x",
+          "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+          "targetVariableSetName": "global"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "xs": {
+      "$type": "number",
+      "$value": 12,
+      "$description": "Valore extra small nella scala dimensionale per la spaziatura",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:1878",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:43354d060eb1b3d4e5a0bf84c3b2e843a1fc4696/-1:-1",
+          "targetVariableName": "spacing/3x",
+          "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+          "targetVariableSetName": "global"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "s": {
+      "$type": "number",
+      "$value": 16,
+      "$description": "Valore small nella scala dimensionale per la spaziatura",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:1879",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a9db34cbf3efd265c286bb1664a639a8031951c1/-1:-1",
+          "targetVariableName": "spacing/4x",
+          "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+          "targetVariableSetName": "global"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "m": {
+      "$type": "number",
+      "$value": 24,
+      "$description": "Valore medium nella scala dimensionale per la spaziatura",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:1880",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:39e8ed6f5975a76d7681f464eaac8fe50252f40b/-1:-1",
+          "targetVariableName": "spacing/6x",
+          "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+          "targetVariableSetName": "global"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "l": {
+      "$type": "number",
+      "$value": 32,
+      "$description": "Valore large nella scala dimensionale per la spaziatura",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:1881",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:49a5bbe14271c51b9602cae7fede91ebd8549129/-1:-1",
+          "targetVariableName": "spacing/8x",
+          "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+          "targetVariableSetName": "global"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "xl": {
+      "$type": "number",
+      "$value": 40,
+      "$description": "Valore extra-large nella scala dimensionale per la spaziatura",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:1882",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:1d330dceb585d194f3e3dca07db8742a5a21e0fb/-1:-1",
+          "targetVariableName": "spacing/10x",
+          "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+          "targetVariableSetName": "global"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "xxl": {
+      "$type": "number",
+      "$value": 48,
+      "$description": "Valore extra-extra-large nella scala dimensionale per la spaziatura",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:1883",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:b95b9023790fcbef9023cf4dd21daf256e204223/-1:-1",
+          "targetVariableName": "spacing/12x",
+          "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+          "targetVariableSetName": "global"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "3xl": {
+      "$type": "number",
+      "$value": 96,
+      "$description": "Valore 3-extra-large nella scala dimensionale per la spaziatura",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:1884",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:ba45f5090e057377af40684e10d6bf34604649d0/-1:-1",
+          "targetVariableName": "spacing/24x",
+          "targetVariableSetId": "VariableCollectionId:fa940244f3a660bc51c9e6eb644cd1a5a8a3960c/-1:-1",
+          "targetVariableSetName": "global"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "spacing-stack": {
+      "3xs": {
+        "$type": "number",
+        "$value": "{spacing.3xs}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1885",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xxs": {
+        "$type": "number",
+        "$value": "{spacing.xxs}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1886",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xs": {
+        "$type": "number",
+        "$value": "{spacing.xs}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1887",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "s": {
+        "$type": "number",
+        "$value": "{spacing.s}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1888",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "m": {
+        "$type": "number",
+        "$value": "{spacing.m}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1889",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "l": {
+        "$type": "number",
+        "$value": "{spacing.l}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1890",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xl": {
+        "$type": "number",
+        "$value": "{spacing.xl}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1891",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xxl": {
+        "$type": "number",
+        "$value": "{spacing.xxl}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1892",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "3xl": {
+        "$type": "number",
+        "$value": "{spacing.3xl}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1893",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "spacing-inline": {
+      "3xs": {
+        "$type": "number",
+        "$value": "{spacing.3xs}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1894",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xxs": {
+        "$type": "number",
+        "$value": "{spacing.xxs}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1895",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xs": {
+        "$type": "number",
+        "$value": "{spacing.xs}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1896",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "s": {
+        "$type": "number",
+        "$value": "{spacing.s}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1897",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "m": {
+        "$type": "number",
+        "$value": "{spacing.m}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1898",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "l": {
+        "$type": "number",
+        "$value": "{spacing.l}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1899",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xl": {
+        "$type": "number",
+        "$value": "{spacing.xl}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1900",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xxl": {
+        "$type": "number",
+        "$value": "{spacing.xxl}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1901",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "3xl": {
+        "$type": "number",
+        "$value": "{spacing.3xl}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1902",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "spacing-inset": {
+      "4xs": {
+        "$type": "number",
+        "$value": "{spacing.4xs}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1903",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "3xs": {
+        "$type": "number",
+        "$value": "{spacing.3xs}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1904",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xxs": {
+        "$type": "number",
+        "$value": "{spacing.xxs}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1905",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xs": {
+        "$type": "number",
+        "$value": "{spacing.xs}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1906",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "s": {
+        "$type": "number",
+        "$value": "{spacing.s}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1907",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "m": {
+        "$type": "number",
+        "$value": "{spacing.m}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1908",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "l": {
+        "$type": "number",
+        "$value": "{spacing.l}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1909",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xl": {
+        "$type": "number",
+        "$value": "{spacing.xl}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1910",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "xxl": {
+        "$type": "number",
+        "$value": "{spacing.xxl}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1911",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      },
+      "3xl": {
+        "$type": "number",
+        "$value": "{spacing.3xl}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:1:1912",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.isOverride": true
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "regione-lombardia"
+  }
+}

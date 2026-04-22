@@ -1,0 +1,29 @@
+/* src/styles.scss */
+
+// 1. Importa il CSS già compilato (bypassiamo i calcoli matematici di Sass)
+@import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
+
+
+:root {
+  /* Ora questi nomi corrispondono ESATTAMENTE a quelli generati dal build.js */
+  --bs-primary: var(--it-primary);
+  --bs-success: var(--it-success);
+  --bs-danger: var(--it-danger);
+
+  /* E per gli RGB necessari a Bootstrap 5 */
+  --bs-primary-rgb: var(--it-primary-rgb);
+}
+
+/* Questa è l'unica mappatura "di massa" che ti serve per i bottoni */
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-primary);
+}
+// 4. Sezioni Master (Header/Footer)
+// Usiamo la logica AgID per colorare le fasce principali
+.it-header-wrapper .it-nav-wrapper,
+.it-header-slim-wrapper,
+.it-footer-main {
+  background-color: var(--it-primary) !important;
+}

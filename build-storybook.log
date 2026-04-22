@@ -1,0 +1,378 @@
+
+> frontend@0.0.0 build-storybook
+> npm run tokens && npm run compodoc && ng run frontend:build-storybook --output-dir=/var/folders/6v/n3mhjb8n47g8jg93fxl3jpg80000gn/T/chromatic--7052-G1OC0b5b2z4d
+
+
+> frontend@0.0.0 tokens
+> node build.js
+
+
+🚀 Generazione Brand: [Open2 Plus]
+
+scss
+⚠️ src/styles/themes/open2-plus/_variables.scss
+While building _variables.scss, token collisions were found; output may be unexpected. Ignore this warning if intentional.
+
+Use log.verbosity "verbose" or use CLI option --verbose for more details.
+Refer to: https://styledictionary.com/reference/logging/
+
+css
+⚠️ public/themes/open2-plus/variables.css
+While building variables.css, token collisions were found; output may be unexpected. Ignore this warning if intentional.
+
+Use log.verbosity "verbose" or use CLI option --verbose for more details.
+Refer to: https://styledictionary.com/reference/logging/
+⚠️ public/themes/open2-plus/variables-rgb.css
+While building variables-rgb.css, token collisions were found; output may be unexpected. Ignore this warning if intentional.
+
+Use log.verbosity "verbose" or use CLI option --verbose for more details.
+Refer to: https://styledictionary.com/reference/logging/
+
+🚀 Generazione Brand: [Regione Lombardia]
+
+Token collisions detected (209):
+Use log.verbosity "verbose" or use CLI option --verbose for more details.
+Refer to: https://styledictionary.com/reference/logging/
+
+scss
+⚠️ src/styles/themes/regione-lombardia/_variables.scss
+While building _variables.scss, token collisions were found; output may be unexpected. Ignore this warning if intentional.
+
+Use log.verbosity "verbose" or use CLI option --verbose for more details.
+Refer to: https://styledictionary.com/reference/logging/
+
+css
+⚠️ public/themes/regione-lombardia/variables.css
+While building variables.css, token collisions were found; output may be unexpected. Ignore this warning if intentional.
+
+Use log.verbosity "verbose" or use CLI option --verbose for more details.
+Refer to: https://styledictionary.com/reference/logging/
+⚠️ public/themes/regione-lombardia/variables-rgb.css
+While building variables-rgb.css, token collisions were found; output may be unexpected. Ignore this warning if intentional.
+
+Use log.verbosity "verbose" or use CLI option --verbose for more details.
+Refer to: https://styledictionary.com/reference/logging/
+
+✅ Build completata con successo!
+
+> frontend@0.0.0 compodoc
+> npx compodoc -p tsconfig.app.json -e json -d .
+
+[0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+
+1.2.1
+
+TypeScript version used by Compodoc : 5.9.2
+
+TypeScript version of current project : 5.9.2
+
+Node.js version : v22.14.0
+
+Operating system : macOS Unknown
+
+[17:56:07] [33mNo configuration file found, switching to CLI flags.[39m
+[17:56:07] [32mUsing tsconfig file : /Users/matteodoffini/Documents/progetti/design-angular-kit/tsconfig.app.json[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/main.ts[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/app/app.config.ts[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/app/app.routes.ts[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/app/app.ts[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/AgidButton.stories.ts[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/button.component.ts[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/button.stories.ts[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/header.component.ts[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/header.stories.ts[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/page.component.ts[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/page.stories.ts[39m
+[17:56:07] [36mIncluding      : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/user.ts[39m
+[17:56:07] [32mSearching package.json file[39m
+[17:56:07] [32mpackage.json file found[39m
+[17:56:07] [32mProcessing package.json dependencies[39m
+[17:56:07] [32mSearching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files[39m
+[17:56:07] [32mREADME.md file found[39m
+[17:56:07] [33mError during /Users/matteodoffini/Documents/progetti/design-angular-kit/CHANGELOG read[39m
+[17:56:07] [33mContinuing without CHANGELOG.md file[39m
+[17:56:07] [33mError during /Users/matteodoffini/Documents/progetti/design-angular-kit/CONTRIBUTING read[39m
+[17:56:07] [33mContinuing without CONTRIBUTING.md file[39m
+[17:56:07] [33mError during /Users/matteodoffini/Documents/progetti/design-angular-kit/LICENSE read[39m
+[17:56:07] [33mContinuing without LICENSE.md file[39m
+[17:56:07] [33mError during /Users/matteodoffini/Documents/progetti/design-angular-kit/TODO read[39m
+[17:56:07] [33mContinuing without TODO.md file[39m
+[17:56:07] [32mGet dependencies data[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/main.ts[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/app/app.config.ts[39m
+[17:56:07] [36mfound          : appConfig[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/app/app.routes.ts[39m
+[17:56:07] [32mAnalysing routes definitions and clean them if necessary[39m
+[17:56:07] [36mfound          : routes[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/app/app.ts[39m
+[17:56:07] [36mfound          : App[39m
+[17:56:07] [36m               : - imports:[39m
+[17:56:07] [36m               : 	- RouterOutlet[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/AgidButton.stories.ts[39m
+[17:56:07] [36mfound          : Primary[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/button.component.ts[39m
+[17:56:07] [36mfound          : ButtonComponent[39m
+[17:56:07] [36m               : - imports:[39m
+[17:56:07] [36m               : 	- CommonModule[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/button.stories.ts[39m
+[17:56:07] [36mfound          : meta[39m
+[17:56:07] [36mfound          : Story[39m
+[17:56:07] [36mfound          : Primary[39m
+[17:56:07] [36mfound          : Secondary[39m
+[17:56:07] [36mfound          : Large[39m
+[17:56:07] [36mfound          : Small[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/header.component.ts[39m
+[17:56:07] [36mfound          : HeaderComponent[39m
+[17:56:07] [36m               : - imports:[39m
+[17:56:07] [36m               : 	- CommonModule[39m
+[17:56:07] [36m               : 	- ButtonComponent[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/header.stories.ts[39m
+[17:56:07] [36mfound          : meta[39m
+[17:56:07] [36mfound          : Story[39m
+[17:56:07] [36mfound          : LoggedIn[39m
+[17:56:07] [36mfound          : LoggedOut[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/page.component.ts[39m
+[17:56:07] [36mfound          : PageComponent[39m
+[17:56:07] [36m               : - imports:[39m
+[17:56:07] [36m               : 	- CommonModule[39m
+[17:56:07] [36m               : 	- HeaderComponent[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/page.stories.ts[39m
+[17:56:07] [36mfound          : meta[39m
+[17:56:07] [36mfound          : Story[39m
+[17:56:07] [36mfound          : LoggedOut[39m
+[17:56:07] [36mfound          : LoggedIn[39m
+[17:56:07] [32mparsing        : /Users/matteodoffini/Documents/progetti/design-angular-kit/src/stories/user.ts[39m
+[17:56:07] [36mfound          : User[39m
+[17:56:07] [32m-------------------[39m
+[17:56:07] [32mProject statistics [39m
+[17:56:07] [32m- component    : 4[39m
+[17:56:07] [32m- interface    : 1[39m
+[17:56:07] [32m- type aliases : 3[39m
+[17:56:07] [32m-------------------[39m
+[17:56:07] [32mPrepare components[39m
+[17:56:07] [32m App has a templateUrl, include it[39m
+[17:56:07] [32m ButtonComponent has styleUrls, include them[39m
+[17:56:07] [32m HeaderComponent has styleUrls, include them[39m
+[17:56:07] [32m PageComponent has styleUrls, include them[39m
+[17:56:07] [32mPrepare modules[39m
+[17:56:07] [32mProcess routes[39m
+[17:56:07] [32mPrepare interfaces[39m
+[17:56:07] [32mPrepare miscellaneous[39m
+[17:56:07] [32mProcess documentation coverage report[39m
+[17:56:07] [32mGenerating documentation in export format json[39m
+[17:56:07] [32mDocumentation generated in ./ in 0.086 seconds[39m
+
+[90m┌[39m  Building Storybook
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc:[0m
+[90m│[39m  [0m[0m[0m[0m
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: 1.2.1
+
+[90m│[39m  TypeScript version
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08]
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [33mNo configuration fil
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mUsing tsc
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [36mIncluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08]
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [33mExcluding      : /Us
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [36mIncluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mExcluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mExcluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [36mIncluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mExcluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mExcluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mExcluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mExcluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mExcluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mExcluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mExcluding
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mSearching
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mpackage.j
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mProcessin
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mSearching
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mREADME.md
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mError dur
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mContinuin
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08]
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [33mError during /Users/
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [33mError dur
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mGet depen
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mparsing
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mparsing
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [36mfound
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mparsing
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mAnalysing
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [36mfound
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mparsing
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [36mfound
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08][36m
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08]
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [36mfound          : But
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mparsing
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [36mfound
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08][36m
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [32mparsing        : /Us
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [36mfound
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08][36m
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [36mfound
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32m---------
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mProject s
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32m- interfa
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mPrepare c
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32m App has
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08]
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [32m ButtonComponent has
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08]
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [32m HeaderComponent has
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08]
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [32m PageComponent has s
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mPrepare m
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mProcess r
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mPrepare m
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mProcess d
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mGeneratin
+[90m│[39m
+[90m│[39m  Generating documentation with Compodoc: [17:56:08] [32mDocumenta
+[90m│[39m
+[90m│[39m  Compodoc finished successfully
+[90m│[39m
+[32m◇[39m  Cleaning outputDir:
+[90m│[39m  [36m../../../../../var/folders/6v/n3mhjb8n47g8jg93fxl3jpg80000gn/T/chromatic--7052-G1OC0b5b2z4d[39m
+[90m│[39m
+[32m◇[39m  Loading presets
+[90m│[39m
+[33m▲[39m  Could not resolve addon "@storybook/addon-essentials", skipping. Is it
+[90m│[39m  installed?
+[90m│[39m
+[33m▲[39m  Could not resolve addon "@storybook/addon-interactions", skipping. Is
+[90m│[39m  it installed?
+[90m│[39m
+[33m▲[39m  Could not resolve addon "@storybook/addon-essentials", skipping. Is it
+[90m│[39m  installed?
+[90m│[39m
+[33m▲[39m  Could not resolve addon "@storybook/addon-interactions", skipping. Is
+[90m│[39m  it installed?
+[90m│[39m
+[32m◇[39m  Building manager..
+[90m│[39m
+[34m●[39m  Building preview..
+[90m│[39m
+[34m●[39m  Addon-docs: using MDX3
+[90m│[39m
+[34m●[39m  Using implicit CSS loaders
+[90m│[39m
+[34m●[39m  Using angular browser target options from "frontend:build"
+[90m│[39m
+[34m●[39m  Using angular project with "tsConfig:.storybook/tsconfig.json"
+[90m│[39m
+[34m●[39m  Using default Webpack5 setup
+[90m│[39m
+[33m▲[39m  /Users/matteodoffini/Documents/progetti/design-angular-kit/node_modules/bootstrap-italia/types/plugins/video.ts
+[90m│[39m  is part of the TypeScript compilation but it's unused.
+[90m│[39m  Add only entry points to the 'files' or 'include' properties in your
+[90m│[39m  tsconfig.
+[90m│[39m
+[33m▲[39m  asset size limit: The following asset(s) exceed the recommended size
+[90m│[39m  limit (244 KiB).
+[90m│[39m  This can impact web performance.
+[90m│[39m  Assets:
+[90m│[39m  static/media/addon-library.7a58d2cb.png (456 KiB)
+[90m│[39m  437.57c0cbce201552208df6.css (1.17 MiB)
+[90m│[39m  139.4052355a.iframe.bundle.js (815 KiB)
+[90m│[39m  947.a5b37847.iframe.bundle.js (376 KiB)
+[90m│[39m  255.4e9993b9.iframe.bundle.js (1.1 MiB)
+[90m│[39m  437.7fd6e203.iframe.bundle.js (4.07 MiB)
+[90m│[39m
+[33m▲[39m  entrypoint size limit: The following entrypoint(s) combined asset size
+[90m│[39m  exceeds the recommended limit (244 KiB). This can impact web
+[90m│[39m  performance.
+[90m│[39m  Entrypoints:
+[90m│[39m  main (5.3 MiB)
+[90m│[39m  runtime~main.7fef26f1.iframe.bundle.js
+[90m│[39m  437.57c0cbce201552208df6.css
+[90m│[39m  437.7fd6e203.iframe.bundle.js
+[90m│[39m  main.c92af5c858f181087e64.css
+[90m│[39m  main.ca8ee666.iframe.bundle.js
+
+[90m│[39m
+[32m◇[39m  Output directory:
+[90m│[39m  /var/folders/6v/n3mhjb8n47g8jg93fxl3jpg80000gn/T/chromatic--7052-G1OC0b5b2z4d
+[90m│[39m
+[90m└[39m  Storybook build completed successfully
+

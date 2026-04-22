@@ -1,0 +1,1353 @@
+{
+  "color": {
+    "background": {
+      "primary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.32}",
+        "$description": "Sfondo primario, utilizzato per elementi interattivi (buttons, links) ed elementi caratterizzati con l’identità visiva."
+      },
+      "primary-light": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.84}",
+        "$description": "Sfondo con contrasto leggero, utilizzato come alternativa al colore primario per elementi interattivi."
+      },
+      "primary-lighter": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.98}",
+        "$description": "Sfondo di colore primario con contrasto ridotto, definisce una sezione o una parte di essa nel contesto della pagina."
+      },
+      "primary-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.24}",
+        "$description": "Sfondo utilizzato su componenti primari interattivi nello stato di :hover."
+      },
+      "primary-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.18}",
+        "$description": "Sfondo utilizzato su componenti primari interattivi nello stato attivo e premuto."
+      },
+      "primary-muted": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.24}",
+        "$description": "Sfondo utilizzato su sezioni di pagina."
+      },
+      "primary-deep": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.18}",
+        "$description": "Sfondo utilizzato su sezioni di pagina."
+      },
+      "secondary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.44}",
+        "$description": "Sfondo alternativo, utilizzato per elementi interattivi secondari o per sezioni di una pagina."
+      },
+      "secondary-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.28}",
+        "$description": "Sfondo utilizzato su elementi interattivi secondari nello stato di :hover."
+      },
+      "secondary-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.20}",
+        "$description": "Sfondo utilizzato su elementi interattivi secondari nello stato attivo e premuto."
+      },
+      "secondary-light": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.68}",
+        "$description": "Sfondo colore secondario chiaro."
+      },
+      "secondary-lighter": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.93}",
+        "$description": "Sfondo colore secondario molto chiaro."
+      },
+      "accent": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.teal.32}",
+        "$description": "Sfondo con colore di accento per elementi interattivi."
+      },
+      "accent-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.teal.26}",
+        "$description": "Sfondo utilizzato su elementi interattivi di accento nello stato di :hover."
+      },
+      "muted": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.gray.96}",
+        "$description": "Sfondo con contrasto molto leggero, definisce sezioni di una pagina o paragrafi di testo."
+      },
+      "inverse": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Sfondo invertito, utilizzato in combinazione con uno sfondo pagina/sezione di tipo primary, secondary  o con colori neutri."
+      },
+      "disabled": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.85}",
+        "$description": "Sfondo per elementi interattivi disabilitati/disattivati"
+      },
+      "subtle": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.gray.83}",
+        "$description": "Sfondo chiaro, utilizzato per definire sezioni di una pagina"
+      },
+      "emphasis": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.20}",
+        "$description": "Sfondo di enfasi, utilizzato per mettere in risalto precise sezioni di una pagina"
+      },
+      "success": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.emerald.25}",
+        "$description": "Sfondo per uno stato di successo, utilizzato per elementi interattivi o sfondo di componenti.  Il testo deve essere inverse"
+      },
+      "success-light": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.emerald.94}",
+        "$description": "Sfondo di successo per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse"
+      },
+      "success-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.emerald.20}",
+        "$description": "Sfondo di successo, utilizzato per elementi interattivi nello stato di :hover"
+      },
+      "success-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.emerald.15}",
+        "$description": "Sfondo di successo, utilizzato per elementi interattivi nello stato attivo e premuto."
+      },
+      "warning": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.orange.30}",
+        "$description": "Sfondo di allerta, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse"
+      },
+      "warning-light": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.orange.94}",
+        "$description": "Sfondo di allerta per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse"
+      },
+      "warning-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.orange.25}",
+        "$description": "Sfondo di allerta, utilizzato per elementi interattivi nello stato di :hover"
+      },
+      "warning-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.orange.20}",
+        "$description": "Sfondo di allerta, utilizzato per elementi interattivi nello stato attivo e premuto."
+      },
+      "danger": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.red.50}",
+        "$description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse."
+      },
+      "danger-light": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.red.96}",
+        "$description": "Sfondo di pericolo o errore per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse"
+      },
+      "danger-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.red.37}",
+        "$description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato di :hover."
+      },
+      "danger-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.red.25}",
+        "$description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato attivo e premuto."
+      }
+    },
+    "border": {
+      "primary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.32}",
+        "$description": "Bordo primario, utilizzato per elementi interattivi cliccabili."
+      },
+      "primary-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.24}",
+        "$description": "Bordo primario per stato interattivo hover"
+      },
+      "primary-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.18}",
+        "$description": "Bordo primario per stato interattivo attivo e premuto."
+      },
+      "secondary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.44}",
+        "$description": "Bordo secondario, utilizzato per elementi interattivi cliccabili"
+      },
+      "secondary-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.28}",
+        "$description": "Bordo secondario per stato interattivo hover"
+      },
+      "secondary-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.20}",
+        "$description": "Bordo secondario per stato interattivo attivo e premuto."
+      },
+      "inverse": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Bordo invertito, utilizzato su sfondo a contrasto di tipo primary, secondary o emphasis"
+      },
+      "disabled": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.85}",
+        "$description": "Bordo per elementi interattivi disabilitati"
+      },
+      "subtle": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.78}",
+        "$description": "Bordo separatore, delimita le sezioni di una pagina, componenti o singoli elementi"
+      },
+      "success": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.emerald.25}",
+        "$description": "Bordo di successo, utilizzato per elementi interattivi o statici (alert, notifications, etc)"
+      },
+      "success-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.emerald.20}",
+        "$description": "Bordo di successo per stato interattivo hover"
+      },
+      "success-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.emerald.15}",
+        "$description": "Bordo di successo per stato interattivo attivo e premuto."
+      },
+      "warning": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.orange.30}",
+        "$description": "Bordo di allerta, utilizzato per elementi interattivi o statici (vedi esempio success)"
+      },
+      "warning-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.orange.25}",
+        "$description": "Bordo di allerta per stato interattivo hover"
+      },
+      "warning-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.orange.20}",
+        "$description": "Bordo di allerta per stato interattivo attivo e premuto."
+      },
+      "danger": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.red.50}",
+        "$description": "Colore di un bordo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o statici (vedi esempio success)"
+      },
+      "danger-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.red.37}",
+        "$description": "Colore di sfondo che avvisa di un pericolo o errore per stato interattivo :hover."
+      },
+      "danger-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.red.25}",
+        "$description": "Colore di sfondo che avvisa di un pericolo o errore per stato attivo e premuto."
+      }
+    },
+    "text": {
+      "base": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.gray.10}",
+        "$description": "Corpo pagina base"
+      },
+      "primary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.32}",
+        "$description": "Testo con link"
+      },
+      "secondary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.28}",
+        "$description": "Corpo pagina alternativo, contenuti di dettaglio, testo button secondary"
+      },
+      "muted": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.44}",
+        "$description": "Testo di supporto per contenuti molto brevi"
+      },
+      "disabled": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.44}",
+        "$description": "Testo disabilitato"
+      },
+      "success": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.emerald.25}",
+        "$description": "Testo di successo, può essere anche interattivo (button, link)"
+      },
+      "success-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.emerald.20}",
+        "$description": "Testo di successo interattivo nello stato hover"
+      },
+      "success-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.emerald.15}",
+        "$description": "Testo di successo interattivo nello stato attivo e premuto."
+      },
+      "warning": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.orange.30}",
+        "$description": "Testo di allerta, può essere anche interattivo (button, link)"
+      },
+      "warning-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.orange.25}",
+        "$description": "Testo di allerta interattivo nello stato hover"
+      },
+      "warning-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.orange.20}",
+        "$description": "Testo di allerta interattivo nello stato attivo e premuto."
+      },
+      "danger": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.red.50}",
+        "$description": "Colore del testo per problema o errore, può essere anche interattivo (link, button)"
+      },
+      "danger-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.red.37}",
+        "$description": "Colore del testo per problema o errore interattivo nello stato hover"
+      },
+      "danger-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.red.25}",
+        "$description": "Colore del testo per problema o errore interattivo nello stato attivo e premuto."
+      },
+      "inverse": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Testo invertito per sfondi a contrasto (primary, secondary, emphasis)"
+      },
+      "accent": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.teal.32}",
+        "$description": "Testo di accento, alternativo al primary per elementi interattivi su sfondi a contrasto"
+      }
+    },
+    "link": {
+      "base": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.32}",
+        "$description": "Colore base per i link"
+      },
+      "hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.24}",
+        "$description": "Colore per i link nello stato hover"
+      },
+      "active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.18}",
+        "$description": "Colore per i link nello stato active"
+      },
+      "secondary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.28}",
+        "$description": "Colore del link secondario, richiede sempre la sottolineatura."
+      },
+      "secondary-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.20}",
+        "$description": "Testo del button secondary nello stato hover"
+      },
+      "secondary-active": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.20}",
+        "$description": "Testo del button secondary nello stato attivo e premuto."
+      },
+      "inverse": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Colore per i link invertiti"
+      },
+      "disabled": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.slate.44}",
+        "$description": "Colore per i link disabilitati"
+      },
+      "accent": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.teal.32}",
+        "$description": "Colore di risalto per un link"
+      },
+      "accent-hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.teal.26}",
+        "$description": "Colore di risalto per un link in stato hover."
+      }
+    },
+    "outline": {
+      "focus": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.gray.10}",
+        "$description": "Colore di evidenziazione dello stato focus"
+      }
+    },
+    "shadow": {
+      "whisper": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.black.05}",
+        "$description": "Colore ombreggiatura leggermente visibile"
+      },
+      "soft": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.black.10}",
+        "$description": "Colore ombreggiatura chiara"
+      },
+      "dark": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.black.15}",
+        "$description": "Colore ombreggiatura molto visibile"
+      }
+    }
+  },
+  "theme": {
+    "italia": {
+      "base": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.32}",
+        "$description": "Colore base del tema"
+      },
+      "light": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.84}",
+        "$description": "Colore del tema chiaro"
+      },
+      "lighter": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.98}",
+        "$description": "Colore del tema molto chiaro"
+      },
+      "subtle": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.32}",
+        "$description": "Colore del tema meno saturo"
+      },
+      "muted": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.24}",
+        "$description": "Colore del tema molto meno saturo"
+      },
+      "deep": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.plum.18}",
+        "$description": "Colore del tema scuro"
+      }
+    }
+  },
+  "spacing": {
+    "4xs": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": "{spacing.0,5x}",
+      "$description": "Valore 3-extra-small nella scala dimensionale per la spaziatura"
+    },
+    "3xs": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": "{spacing.1x}",
+      "$description": "Valore 3-extra-small nella scala dimensionale per la spaziatura"
+    },
+    "xxs": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": "{spacing.2x}",
+      "$description": "Valore extra-extra small nella scala dimensionale per la spaziatura"
+    },
+    "xs": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": "{spacing.3x}",
+      "$description": "Valore extra small nella scala dimensionale per la spaziatura"
+    },
+    "s": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": "{spacing.4x}",
+      "$description": "Valore small nella scala dimensionale per la spaziatura"
+    },
+    "m": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": "{spacing.6x}",
+      "$description": "Valore medium nella scala dimensionale per la spaziatura"
+    },
+    "l": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": "{spacing.8x}",
+      "$description": "Valore large nella scala dimensionale per la spaziatura"
+    },
+    "xl": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": "{spacing.10x}",
+      "$description": "Valore extra-large nella scala dimensionale per la spaziatura"
+    },
+    "xxl": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": "{spacing.12x}",
+      "$description": "Valore extra-extra-large nella scala dimensionale per la spaziatura"
+    },
+    "3xl": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": "{spacing.24x}",
+      "$description": "Valore 3-extra-large nella scala dimensionale per la spaziatura"
+    },
+    "spacing-stack": {
+      "3xs": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.3xs}"
+      },
+      "xxs": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xxs}"
+      },
+      "xs": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xs}"
+      },
+      "s": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.s}"
+      },
+      "m": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.m}"
+      },
+      "l": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.l}"
+      },
+      "xl": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xl}"
+      },
+      "xxl": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xxl}"
+      },
+      "3xl": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.3xl}"
+      }
+    },
+    "spacing-inline": {
+      "3xs": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.3xs}"
+      },
+      "xxs": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xxs}"
+      },
+      "xs": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xs}"
+      },
+      "s": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.s}"
+      },
+      "m": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.m}"
+      },
+      "l": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.l}"
+      },
+      "xl": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xl}"
+      },
+      "xxl": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xxl}"
+      },
+      "3xl": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.3xl}"
+      }
+    },
+    "spacing-inset": {
+      "4xs": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.4xs}"
+      },
+      "3xs": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.3xs}"
+      },
+      "xxs": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xxs}"
+      },
+      "xs": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xs}"
+      },
+      "s": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.s}"
+      },
+      "m": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.m}"
+      },
+      "l": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.l}"
+      },
+      "xl": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xl}"
+      },
+      "xxl": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.xxl}"
+      },
+      "3xl": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{spacing.3xl}"
+      }
+    }
+  }
+}

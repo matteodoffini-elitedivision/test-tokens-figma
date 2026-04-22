@@ -1,0 +1,339 @@
+
+// Do not edit directly, this file was auto-generated.
+
+$color-white: #ffffff; // Colore neutro
+$color-black-10: rgba(0, 0, 0, 0.1); // Colore neutro
+$color-black-15: rgba(0, 0, 0, 0.15); // Colore neutro
+$color-black-25: rgba(0, 0, 0, 0.25); // Colore neutro
+$color-black-50: rgba(0, 0, 0, 0.5); // Colore neutro
+$color-black-85: rgba(0, 0, 0, 0.85); // Colore neutro
+$color-black-100: #000000; // Colore neutro
+$color-black-05: rgba(0, 0, 0, 0.05); // Colore neutro
+$color-blue-20: #003366; // Colore tema default
+$color-blue-25: #004080; // Colore tema default
+$color-blue-30: #004d99; // Colore tema default
+$color-blue-40: #0066cc; // Colore tema default - valore base
+$color-blue-48: #207ad5; // Colore tema default
+$color-blue-57: #4392e0; // Colore tema default
+$color-blue-67: #6aaaeb; // Colore tema default
+$color-blue-77: #94c4f5; // Colore tema default
+$color-blue-87: #bfdfff; // Colore tema default
+$color-blue-97: #f2f7fc; // Colore tema default
+$color-seagreen-10: #003121; // Colore tema secondario
+$color-seagreen-14: #004931; // Colore tema secondario
+$color-seagreen-19: #006242; // Colore tema secondario
+$color-seagreen-24: #007a52; // Colore tema secondario - valore base
+$color-seagreen-39: #329574; // Colore tema secondario
+$color-seagreen-54: #64af96; // Colore tema secondario
+$color-seagreen-69: #96cab9; // Colore tema secondario
+$color-seagreen-76: #afd7ca; // Colore tema secondario
+$color-seagreen-84: #c8e4db; // Colore tema secondario
+$color-seagreen-92: #eaf6f1; // Colore tema secondario
+$color-slate-20: #17324d; // Colore neutro
+$color-slate-28: #2f475e; // Colore neutro
+$color-slate-36: #455b71; // Colore neutro
+$color-slate-44: #5c6f82; // Colore neutro - valore base
+$color-slate-52: #768594; // Colore neutro
+$color-slate-62: #929da9; // Colore neutro
+$color-slate-68: #a3adb7; // Colore neutro
+$color-slate-78: #c5c7c9; // Colore neutro
+$color-slate-85: #d9dadb; // Colore neutro
+$color-slate-93: #ebeced; // Colore neutro
+$color-gray-10: #1a1a1a; // Colore neutro
+$color-gray-15: #262626; // Colore neutro - valore base
+$color-gray-25: #404040; // Colore neutro
+$color-gray-32: #525252; // Colore neutro
+$color-gray-45: #737373; // Colore neutro
+$color-gray-64: #a3a3a3; // Colore neutro
+$color-gray-83: #d4d4d4; // Colore neutro
+$color-gray-90: #e5e5e5; // Colore neutro
+$color-gray-96: #f5f5f5; // Colore neutro
+$color-gray-98: #fafafa; // Colore neutro
+$color-red-25: #661a26; // Colore di sistema
+$color-red-30: #7a1f2e; // Colore di sistema
+$color-red-37: #992639; // Colore di sistema
+$color-red-44: #b32d43; // Colore di sistema
+$color-red-50: #cc334d; // Colore di sistema - valore base
+$color-red-60: #d65c70; // Colore di sistema
+$color-red-70: #e08593; // Colore di sistema
+$color-red-80: #ebadb8; // Colore di sistema
+$color-red-90: #f5d6db; // Colore di sistema
+$color-red-96: #fbeff1; // Colore di sistema
+$color-emerald-15: #004d33; // Colore di sistema
+$color-emerald-20: #006644; // Colore di sistema
+$color-emerald-25: #008055; // Colore di sistema - valore base
+$color-emerald-35: #00b377; // Colore di sistema
+$color-emerald-40: #00cc88; // Colore di sistema
+$color-emerald-48: #22d499; // Colore di sistema
+$color-emerald-57: #43e0ac; // Colore di sistema
+$color-emerald-67: #6ee7bf; // Colore di sistema
+$color-emerald-77: #99eed2; // Colore di sistema
+$color-emerald-87: #c8f6e7; // Colore di sistema
+$color-emerald-94: #e5fbf4; // Colore di sistema
+$color-orange-20: #663d00; // Colore di sistema
+$color-orange-25: #804d00; // Colore di sistema
+$color-orange-30: #995c00; // Colore di sistema
+$color-orange-35: #b36b00; // Colore di sistema
+$color-orange-40: #cc7a00; // Colore di sistema - valore base
+$color-orange-48: #d48d22; // Colore di sistema
+$color-orange-57: #e0a243; // Colore di sistema
+$color-orange-67: #e7b66e; // Colore di sistema
+$color-orange-77: #eecd9a; // Colore di sistema
+$color-orange-87: #f6e4c8; // Colore di sistema
+$color-orange-94: #fbf2e5; // Colore di sistema
+$color-teal-20: #05615e; // Colore di risalto
+$color-teal-26: #077f7b; // Colore di risalto
+$color-teal-32: #089994; // Colore di risalto
+$color-teal-36: #09afa9; // Colore di risalto
+$color-teal-42: #0bcbc5; // Colore di risalto
+$color-teal-50: #2bd6d0; // Colore di risalto
+$color-teal-60: #52e0db; // Colore di risalto
+$color-teal-70: #79ece8; // Colore di risalto
+$color-teal-80: #a3f5f2; // Colore di risalto
+$color-teal-90: #ccfffd; // Colore di risalto
+$color-plum-18: #46163f;
+$color-plum-24: #5e1d54;
+$color-plum-32: #7d2670;
+$color-plum-55: #ad67a2;
+$color-plum-84: #e2cadf;
+$color-plum-95: #f6eff5;
+$color-plum-98: #fbf9fb;
+$font-sans: Titillium Web; // Famiglia font senza grazie
+$font-serif: Lora; // Famiglia font con grazie
+$font-mono: Roboto Mono; // Famiglia font mono spaziata
+$font-weight-extra-light: Extra Light;
+$font-weight-extra-light-italic: Extra Light Italic;
+$font-weight-light: Light;
+$font-weight-light-italic: Light Italic;
+$font-weight-regular: Regular;
+$font-weight-regular-italic: Regular Italic;
+$font-weight-semibold: SemiBold;
+$font-weight-semibold-italic: SemiBold Italic;
+$font-weight-bold: Bold;
+$font-weight-bold-italic: Bold Italic;
+$font-weight-black: Black;
+$border-base: 1; // Dimensione base di un bordo.
+$border-double: 2; // Dimensione doppia di un bordo.
+$border-thick: 4; // Dimensione spessa di un bordo.
+$border-broad: 8; // Dimensione larga di un bordo.
+$font-size-1: 12; // Dimensione della scala tipografica
+$font-size-2: 14; // Dimensione della scala tipografica
+$font-size-3: 16; // Dimensione della scala tipografica
+$font-size-4: 18; // Dimensione della scala tipografica
+$font-size-5: 20; // Dimensione della scala tipografica
+$font-size-6: 24; // Dimensione della scala tipografica
+$font-size-7: 28; // Dimensione della scala tipografica
+$font-size-8: 32; // Dimensione della scala tipografica
+$font-size-9: 40; // Dimensione della scala tipografica
+$font-size-10: 48; // Dimensione della scala tipografica
+$font-size-11: 56; // Dimensione della scala tipografica
+$line-height-0: 12; // Dimensione della scala tipografica
+$line-height-1: 16; // Dimensione della scala tipografica
+$line-height-2: 20; // Dimensione della scala tipografica
+$line-height-3: 24; // Dimensione della scala tipografica
+$line-height-4: 28; // Dimensione della scala tipografica
+$line-height-5: 32; // Dimensione della scala tipografica
+$line-height-6: 36; // Dimensione della scala tipografica
+$line-height-7: 40; // Dimensione della scala tipografica
+$line-height-8: 48; // Dimensione della scala tipografica
+$line-height-9: 56; // Dimensione della scala tipografica
+$line-height-10: 64; // Dimensione della scala tipografica
+$line-height-11: 72; // Dimensione della scala tipografica
+$font-tracking-short: -1; // Spazio tra le lettere di un font
+$font-tracking-narrow: -1.3; // Spazio tra le lettere di un font
+$font-tracking-tight: -2; // Spazio tra le lettere di un font
+$font-tracking-normal: 0; // Spazio tra le lettere di un font
+$spacing-2x: -2;
+$spacing-1x: -1;
+$spacing-0x: 0; // Dimensione baseline
+$spacing-0-5x: 2; // Dimensione baseline
+$spacing-1x: 4; // Dimensione baseline
+$spacing-2x: 8; // 2x la dimensione della baseline
+$spacing-3x: 12; // 3x la dimensione della baseline
+$spacing-4x: 16; // 4x la dimensione della baseline
+$spacing-5x: 20; // 5x la dimensione della baseline
+$spacing-6x: 24; // 6x la dimensione della baseline
+$spacing-8x: 32; // 8x la dimensione della baseline
+$spacing-10x: 40; // 10x la dimensione della baseline
+$spacing-12x: 48; // 12x la dimensione della baseline
+$spacing-14x: 56; // 14x la dimensione della baseline
+$spacing-16x: 64; // 16x la dimensione della baseline
+$spacing-24x: 96; // 24x la dimensione della baseline
+$radius-smooth: 0; // Raggio di un bordo
+$radius-circle: 80; // Raggio di un bordo
+$radius-rounded: 40; // Raggio di un bordo
+$shadow-blur-s: 4; // Raggio di sfocatura dell'ombreggiatura
+$shadow-blur-m: 16; // Raggio di sfocatura dell'ombreggiatura
+$shadow-blur-l: 48; // Raggio di sfocatura dell'ombreggiatura
+$shadow-offset-s: 4; // Offset dell'ombreggiatura
+$shadow-offset-m: 8; // Offset dell'ombreggiatura
+$shadow-offset-l: 16; // Offset dell'ombreggiatura
+$icon-size-xs: 16; // Dimensione icona molto piccola
+$icon-size-s: 24; // Dimensione icona piccola
+$icon-size-m: 32; // Dimensione icona media
+$icon-size-l: 48; // Dimensione icona grande
+$icon-size-xl: 64; // Dimensione icona molto grande
+$color-background-primary: $color-plum-32; // Sfondo primario, utilizzato per elementi interattivi (buttons, links) ed elementi caratterizzati con l’identità visiva.
+$color-background-primary-light: $color-plum-84; // Sfondo con contrasto leggero, utilizzato come alternativa al colore primario per elementi interattivi.
+$color-background-primary-lighter: $color-plum-98; // Sfondo di colore primario con contrasto ridotto, definisce una sezione o una parte di essa nel contesto della pagina.
+$color-background-primary-hover: $color-plum-24; // Sfondo utilizzato su componenti primari interattivi nello stato di :hover.
+$color-background-primary-active: $color-plum-18; // Sfondo utilizzato su componenti primari interattivi nello stato attivo e premuto.
+$color-background-primary-muted: $color-plum-24; // Sfondo utilizzato su sezioni di pagina.
+$color-background-primary-deep: $color-plum-18; // Sfondo utilizzato su sezioni di pagina.
+$color-background-secondary: $color-slate-44; // Sfondo alternativo, utilizzato per elementi interattivi secondari o per sezioni di una pagina.
+$color-background-secondary-hover: $color-slate-28; // Sfondo utilizzato su elementi interattivi secondari nello stato di :hover.
+$color-background-secondary-active: $color-slate-20; // Sfondo utilizzato su elementi interattivi secondari nello stato attivo e premuto.
+$color-background-secondary-light: $color-slate-68; // Sfondo colore secondario chiaro.
+$color-background-secondary-lighter: $color-slate-93; // Sfondo colore secondario molto chiaro.
+$color-background-accent: $color-teal-32; // Sfondo con colore di accento per elementi interattivi.
+$color-background-accent-hover: $color-teal-26; // Sfondo utilizzato su elementi interattivi di accento nello stato di :hover.
+$color-background-muted: $color-gray-96; // Sfondo con contrasto molto leggero, definisce sezioni di una pagina o paragrafi di testo.
+$color-background-inverse: $color-white; // Sfondo invertito, utilizzato in combinazione con uno sfondo pagina/sezione di tipo primary, secondary  o con colori neutri.
+$color-background-disabled: $color-slate-85; // Sfondo per elementi interattivi disabilitati/disattivati
+$color-background-subtle: $color-gray-83; // Sfondo chiaro, utilizzato per definire sezioni di una pagina
+$color-background-emphasis: $color-slate-20; // Sfondo di enfasi, utilizzato per mettere in risalto precise sezioni di una pagina
+$color-background-success: $color-emerald-25; // Sfondo per uno stato di successo, utilizzato per elementi interattivi o sfondo di componenti.  Il testo deve essere inverse
+$color-background-success-light: $color-emerald-94; // Sfondo di successo per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse
+$color-background-success-hover: $color-emerald-20; // Sfondo di successo, utilizzato per elementi interattivi nello stato di :hover
+$color-background-success-active: $color-emerald-15; // Sfondo di successo, utilizzato per elementi interattivi nello stato attivo e premuto.
+$color-background-warning: $color-orange-30; // Sfondo di allerta, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse
+$color-background-warning-light: $color-orange-94; // Sfondo di allerta per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse
+$color-background-warning-hover: $color-orange-25; // Sfondo di allerta, utilizzato per elementi interattivi nello stato di :hover
+$color-background-warning-active: $color-orange-20; // Sfondo di allerta, utilizzato per elementi interattivi nello stato attivo e premuto.
+$color-background-danger: $color-red-50; // Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse.
+$color-background-danger-light: $color-red-96; // Sfondo di pericolo o errore per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse
+$color-background-danger-hover: $color-red-37; // Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato di :hover.
+$color-background-danger-active: $color-red-25; // Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato attivo e premuto.
+$color-border-primary: $color-plum-32; // Bordo primario, utilizzato per elementi interattivi cliccabili.
+$color-border-primary-hover: $color-plum-24; // Bordo primario per stato interattivo hover
+$color-border-primary-active: $color-plum-18; // Bordo primario per stato interattivo attivo e premuto.
+$color-border-secondary: $color-slate-44; // Bordo secondario, utilizzato per elementi interattivi cliccabili
+$color-border-secondary-hover: $color-slate-28; // Bordo secondario per stato interattivo hover
+$color-border-secondary-active: $color-slate-20; // Bordo secondario per stato interattivo attivo e premuto.
+$color-border-inverse: $color-white; // Bordo invertito, utilizzato su sfondo a contrasto di tipo primary, secondary o emphasis
+$color-border-disabled: $color-slate-85; // Bordo per elementi interattivi disabilitati
+$color-border-subtle: $color-slate-78; // Bordo separatore, delimita le sezioni di una pagina, componenti o singoli elementi
+$color-border-success: $color-emerald-25; // Bordo di successo, utilizzato per elementi interattivi o statici (alert, notifications, etc)
+$color-border-success-hover: $color-emerald-20; // Bordo di successo per stato interattivo hover
+$color-border-success-active: $color-emerald-15; // Bordo di successo per stato interattivo attivo e premuto.
+$color-border-warning: $color-orange-30; // Bordo di allerta, utilizzato per elementi interattivi o statici (vedi esempio success)
+$color-border-warning-hover: $color-orange-25; // Bordo di allerta per stato interattivo hover
+$color-border-warning-active: $color-orange-20; // Bordo di allerta per stato interattivo attivo e premuto.
+$color-border-danger: $color-red-50; // Colore di un bordo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o statici (vedi esempio success)
+$color-border-danger-hover: $color-red-37; // Colore di sfondo che avvisa di un pericolo o errore per stato interattivo :hover.
+$color-border-danger-active: $color-red-25; // Colore di sfondo che avvisa di un pericolo o errore per stato attivo e premuto.
+$color-text-base: $color-gray-10; // Corpo pagina base
+$color-text-primary: $color-plum-32; // Testo con link
+$color-text-secondary: $color-slate-28; // Corpo pagina alternativo, contenuti di dettaglio, testo button secondary
+$color-text-muted: $color-slate-44; // Testo di supporto per contenuti molto brevi
+$color-text-disabled: $color-slate-44; // Testo disabilitato
+$color-text-success: $color-emerald-25; // Testo di successo, può essere anche interattivo (button, link)
+$color-text-success-hover: $color-emerald-20; // Testo di successo interattivo nello stato hover
+$color-text-success-active: $color-emerald-15; // Testo di successo interattivo nello stato attivo e premuto.
+$color-text-warning: $color-orange-30; // Testo di allerta, può essere anche interattivo (button, link)
+$color-text-warning-hover: $color-orange-25; // Testo di allerta interattivo nello stato hover
+$color-text-warning-active: $color-orange-20; // Testo di allerta interattivo nello stato attivo e premuto.
+$color-text-danger: $color-red-50; // Colore del testo per problema o errore, può essere anche interattivo (link, button)
+$color-text-danger-hover: $color-red-37; // Colore del testo per problema o errore interattivo nello stato hover
+$color-text-danger-active: $color-red-25; // Colore del testo per problema o errore interattivo nello stato attivo e premuto.
+$color-text-inverse: $color-white; // Testo invertito per sfondi a contrasto (primary, secondary, emphasis)
+$color-text-accent: $color-teal-32; // Testo di accento, alternativo al primary per elementi interattivi su sfondi a contrasto
+$color-link-base: $color-plum-32; // Colore base per i link
+$color-link-hover: $color-plum-24; // Colore per i link nello stato hover
+$color-link-active: $color-plum-18; // Colore per i link nello stato active
+$color-link-secondary: $color-slate-28; // Colore del link secondario, richiede sempre la sottolineatura.
+$color-link-secondary-hover: $color-slate-20; // Testo del button secondary nello stato hover
+$color-link-secondary-active: $color-slate-20; // Testo del button secondary nello stato attivo e premuto.
+$color-link-inverse: $color-white; // Colore per i link invertiti
+$color-link-disabled: $color-slate-44; // Colore per i link disabilitati
+$color-link-accent: $color-teal-32; // Colore di risalto per un link
+$color-link-accent-hover: $color-teal-26; // Colore di risalto per un link in stato hover.
+$color-outline-focus: $color-gray-10; // Colore di evidenziazione dello stato focus
+$color-shadow-whisper: $color-black-05; // Colore ombreggiatura leggermente visibile
+$color-shadow-soft: $color-black-10; // Colore ombreggiatura chiara
+$color-shadow-dark: $color-black-15; // Colore ombreggiatura molto visibile
+$spacing-4xs: $spacing-0-5x; // Valore 3-extra-small nella scala dimensionale per la spaziatura
+$spacing-3xs: $spacing-1x; // Valore 3-extra-small nella scala dimensionale per la spaziatura
+$spacing-xxs: $spacing-2x; // Valore extra-extra small nella scala dimensionale per la spaziatura
+$spacing-xs: $spacing-3x; // Valore extra small nella scala dimensionale per la spaziatura
+$spacing-s: $spacing-4x; // Valore small nella scala dimensionale per la spaziatura
+$spacing-m: $spacing-6x; // Valore medium nella scala dimensionale per la spaziatura
+$spacing-l: $spacing-8x; // Valore large nella scala dimensionale per la spaziatura
+$spacing-xl: $spacing-10x; // Valore extra-large nella scala dimensionale per la spaziatura
+$spacing-xxl: $spacing-12x; // Valore extra-extra-large nella scala dimensionale per la spaziatura
+$spacing-3xl: $spacing-24x; // Valore 3-extra-large nella scala dimensionale per la spaziatura
+$theme-italia-base: $color-plum-32; // Colore base del tema
+$theme-italia-light: $color-plum-84; // Colore del tema chiaro
+$theme-italia-lighter: $color-plum-98; // Colore del tema molto chiaro
+$theme-italia-subtle: $color-plum-32; // Colore del tema meno saturo
+$theme-italia-muted: $color-plum-24; // Colore del tema molto meno saturo
+$theme-italia-deep: $color-plum-18; // Colore del tema scuro
+$code-font: $font-mono; // La famiglia di font predefinita per i blocchi di codice.
+$data-font: $font-mono; // La famiglia di font predefinita per il contenuto della visualizzazione dei dati.
+$heading-1-font-size: $font-size-9; // La dimensione di font predefinita per il titolo 1.
+$heading-1-font-size-l: $font-size-10; // La dimensione di font predefinita per il titolo 1 grande.
+$heading-2-font-size: $font-size-8; // La dimensione di font predefinita per il titolo 2.
+$heading-2-font-size-l: $font-size-9; // La dimensione di font predefinita per il titolo 2 grande.
+$heading-3-font-size-l: $font-size-8; // La dimensione di font predefinita per il titolo 3 grande.
+$heading-3-font-size: $font-size-7; // La dimensione di font predefinita per il titolo 3.
+$heading-4-font-size: $font-size-6; // La dimensione di font predefinita per il titolo 4.
+$heading-4-font-size-l: $font-size-7; // La dimensione di font predefinita per il titolo 4 grande.
+$heading-5-font-size: $font-size-5; // La dimensione di font predefinita per il titolo 5.
+$heading-5-font-size-l: $font-size-6; // La dimensione di font predefinita per il titolo 5 grande.
+$heading-6-font-size: $font-size-3; // La dimensione di font predefinita per il titolo 6.
+$heading-6-font-size-l: $font-size-4; // La dimensione di font predefinita per il titolo 6 grande.
+$body-font-size: $font-size-3; // La dimensione di font predefinita per il corpo del testo.
+$body-font-size-l: $font-size-4; // La dimensione di font predefinita per il corpo del testo grande.
+$caption-font-size: $font-size-2; // La dimensione di font predefinita per le didascalie.
+$lead-font-size: $font-size-5; // La dimensione di font predefinita per il testo in primo piano.
+$lead-font-size-l: $font-size-6; // La dimensione di font predefinita per il testo in primo piano grande.
+$label-font-size-xs: $font-size-1; // La dimensione di font predefinita per le etichette molto piccole.
+$label-font-size-s: $font-size-2; // La dimensione di font predefinita per le etichette piccole.
+$label-font-size: $font-size-3; // La dimensione di font predefinita per le etichette medie.
+$label-font-size-l: $font-size-4; // La dimensione di font predefinita per le etichette grandi.
+$spacing-spacing-stack-3xs: $spacing-3xs;
+$spacing-spacing-stack-xxs: $spacing-xxs;
+$spacing-spacing-stack-xs: $spacing-xs;
+$spacing-spacing-stack-s: $spacing-s;
+$spacing-spacing-stack-m: $spacing-m;
+$spacing-spacing-stack-l: $spacing-l;
+$spacing-spacing-stack-xl: $spacing-xl;
+$spacing-spacing-stack-xxl: $spacing-xxl;
+$spacing-spacing-stack-3xl: $spacing-3xl;
+$spacing-spacing-inline-3xs: $spacing-3xs;
+$spacing-spacing-inline-xxs: $spacing-xxs;
+$spacing-spacing-inline-xs: $spacing-xs;
+$spacing-spacing-inline-s: $spacing-s;
+$spacing-spacing-inline-m: $spacing-m;
+$spacing-spacing-inline-l: $spacing-l;
+$spacing-spacing-inline-xl: $spacing-xl;
+$spacing-spacing-inline-xxl: $spacing-xxl;
+$spacing-spacing-inline-3xl: $spacing-3xl;
+$spacing-spacing-inset-4xs: $spacing-4xs;
+$spacing-spacing-inset-3xs: $spacing-3xs;
+$spacing-spacing-inset-xxs: $spacing-xxs;
+$spacing-spacing-inset-xs: $spacing-xs;
+$spacing-spacing-inset-s: $spacing-s;
+$spacing-spacing-inset-m: $spacing-m;
+$spacing-spacing-inset-l: $spacing-l;
+$spacing-spacing-inset-xl: $spacing-xl;
+$spacing-spacing-inset-xxl: $spacing-xxl;
+$spacing-spacing-inset-3xl: $spacing-3xl;
+$icon-default: $color-text-base; // Colore icona di base
+$icon-primary: $color-background-primary; // Colore icona con link
+$icon-primary-hover: $color-background-primary-hover; // Colore icona con link status hover
+$icon-primary-active: $color-background-primary-active; // Colore icona con link status attivo
+$icon-secondary: $color-background-secondary; // Colore icona di supporto
+$icon-secondary-hover: $color-background-secondary-hover; // Colore icona di supporto - status hover
+$icon-secondary-active: $color-background-secondary-active; // Colore icona di supporto - status attivo
+$icon-success: $color-background-success; // Colore icona di supporto per azioni avvenute con successo
+$icon-success-hover: $color-background-success-hover; // Colore icona di supporto per azioni avvenute con successo - status hover
+$icon-success-active: $color-background-success-active; // Colore icona di supporto per azioni avvenute con successo - status attivo
+$icon-warning: $color-background-warning; // Colore icona di supporto per comunicazioni che richiedono attenzione
+$icon-warning-hover: $color-background-warning-hover; // Colore icona di supporto per comunicazioni che richiedono attenzione - status hover
+$icon-warning-active: $color-background-warning-active; // Colore icona di supporto per comunicazioni che richiedono attenzione - status attivo
+$icon-danger: $color-background-danger; // Colore icona di supporto per azioni non andate a buon fine - status hover
+$icon-danger-hover: $color-background-danger-hover; // Colore icona di supporto per azioni non andate a buon fine - status hover
+$icon-danger-active: $color-background-danger-active; // Colore icona di supporto per azioni non andate a buon fine - status hover
+$icon-inverse: $color-background-inverse; // Colore icona dsabilitata
+$icon-disabled: $color-text-disabled; // Colore icona disabilitata.
