@@ -48,19 +48,19 @@ The theming pipeline runs **before** any Angular build:
    - `tokens/brands/{brand}/` — brand-specific overrides. Currently: `regione-lombardia`, `open2-plus`.
    - `brands.config.js` — **auto-discovers** all directories under `tokens/brands/`. Adding a new brand folder with `.json` files is sufficient; no registration needed. Files starting with `$` are skipped (Token Studio metadata).
 
-2. **`build.js`** — Style Dictionary v5 pipeline. Registers two custom transforms:
+2. **`build.mjs`** — Style Dictionary v5 pipeline. Registers two custom transforms:
    - `name/it-short`: strips structural category segments (`color`, `background`, `border`, `text`) and prepends `it-` (e.g. `color.background.primary` → `it-primary`).
    - `color/rgb-values`: converts hex to RGB channel values (e.g. `255, 102, 0`) — **applied only to `variables-rgb.css`**, not the main HEX file.
 
    Outputs per brand:
    - **SCSS** (`transformGroup: "scss"`): `src/styles/themes/{brand}/_variables.scss` — compiled into the Angular bundle at build time.
-   - **CSS** (custom transforms): `public/themes/{brand}/variables.css` (hex) and `variables-rgb.css` (RGB) — loaded at runtime for theme switching.
+   - **CSS** (custom transforms): `src/assets/themes/{brand}/variables.css` (hex) and `variables-rgb.css` (RGB) — served as `/assets/themes/{brand}/variables.css` at runtime for theme switching.
 
 3. **`src/styles.scss`** — Imports Bootstrap Italia CSS and maps generated `--it-*` CSS custom properties to Bootstrap's `--bs-*` equivalents (e.g. `--bs-primary: var(--it-primary)`). Also applies brand colors to `.it-header-wrapper`, `.it-nav-wrapper`, and `.it-footer-main`.
 
 ### Storybook Setup
 
-Storybook is configured via **`angular.json`** (not a `.storybook/` directory — that folder does not exist). The configuration includes a global brand-theme switcher decorator that swaps the `<link>` tag pointing to `/public/themes/{brand}/variables.css` at runtime, so all stories get brand switching without a rebuild.
+Storybook is configured via **`angular.json`** (not a `.storybook/` directory — that folder does not exist). The configuration includes a global brand-theme switcher decorator that swaps the `<link>` tag pointing to `/assets/themes/{brand}/variables.css` at runtime, so all stories get brand switching without a rebuild.
 
 - **`src/stories/`** — Demonstration stories (`button`, `header`, `page`, `AgidButton`). These showcase the library; they are not the library itself. `AgidButton` imports `DesignAngularKitModule.forRoot()` with `CUSTOM_ELEMENTS_SCHEMA` to consume Bootstrap Italia web components.
 
@@ -84,7 +84,7 @@ Tests use **Vitest** (not Jest/Karma) with Angular's `TestBed`. `tsconfig.spec.j
 
 ## Key Design Decisions
 
-- **Style Dictionary v5** — the API changed significantly from v3. Transforms are registered on the `StyleDictionary` class directly (not on instances). Do not follow v3 documentation. `build.js` includes a compatibility shim (`StyleDictionaryModule.StyleDictionary || StyleDictionaryModule.default || StyleDictionaryModule`) to handle module format differences.
+- **Style Dictionary v5** — the API changed significantly from v3. Transforms are registered on the `StyleDictionary` class directly (not on instances). Do not follow v3 documentation. `build.mjs` uses ES module import (`import StyleDictionary from 'style-dictionary'`) — no CommonJS compatibility shim needed.
 - **Bootstrap Italia CSS variables** are the bridge between design tokens and the UI. The token pipeline outputs values that override Bootstrap's CSS custom properties, keeping the styling layer compatible with the upstream Bootstrap Italia framework.
 - **Dual CSS output** (hex + RGB) matches Bootstrap's dual-variable pattern (`--bs-primary` + `--bs-primary-rgb`). The SCSS output is build-time only; the CSS output enables runtime brand switching in Storybook without a rebuild.
 - **TypeScript strict mode is fully enabled** — `strict: true` plus `noImplicitOverride`, `noPropertyAccessFromIndexSignature`, `noImplicitReturns`, `noFallthroughCasesInSwitch`, `strictInjectionParameters`, `strictInputAccessModifiers`, `strictTemplates`. Angular compiler strict checks are also on.
