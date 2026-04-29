@@ -1,6 +1,6 @@
 import {
   getDOM
-} from "./chunk-5XCU34OP.js";
+} from "./chunk-RB3M2OBE.js";
 import {
   ApplicationRef,
   ChangeDetectorRef,
@@ -50,7 +50,7 @@ import {
   ɵɵdirectiveInject,
   ɵɵgetInheritedFactory,
   ɵɵlistener
-} from "./chunk-4OUHZF5U.js";
+} from "./chunk-ZBUEH6HV.js";
 
 // node_modules/@angular/forms/fesm2022/forms.mjs
 var BaseControlValueAccessor = class _BaseControlValueAccessor {
@@ -744,7 +744,7 @@ var ngModelWithFormGroupExample = `
       <input [(ngModel)]="showMoreControls" [ngModelOptions]="{standalone: true}">
   </div>
 `;
-var VERSION = new Version("21.2.9");
+var VERSION = new Version("21.2.10");
 function controlParentException(nameOrIndex) {
   return new RuntimeError(1050, `formControlName must be used with a parent formGroup or formArray directive. You'll want to add a formGroup/formArray
       directive and pass it an existing FormGroup/FormArray instance (you can create one in your class).

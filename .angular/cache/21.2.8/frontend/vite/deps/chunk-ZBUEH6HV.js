@@ -3528,7 +3528,7 @@ var Version = class {
     this.patch = parts.slice(2).join(".");
   }
 };
-var VERSION = new Version("21.2.9");
+var VERSION = new Version("21.2.10");
 var DOC_PAGE_BASE_URL = (() => {
   const full = VERSION.full;
   const isPreRelease = full.includes("-next") || full.includes("-rc") || full === "0.0.0-PLACEHOLDER";
@@ -12542,6 +12542,7 @@ function createTemplateRef(hostTNode, hostLView) {
   return null;
 }
 var AT_THIS_LOCATION = "<-- AT THIS LOCATION";
+var THIRD_PARTY_SCRIPTS_URL = `/guide/hydration#third-party-scripts-with-dom-manipulation`;
 function getFriendlyStringFromTNodeType(tNodeType) {
   switch (tNodeType) {
     case 4:
@@ -12597,7 +12598,12 @@ ${actualDom}
       markRNodeAsHavingHydrationMismatch(componentHostElement, expectedDom, actualDom);
     }
     const footer = getHydrationErrorFooter(componentClassName);
-    const message = header + expected + actual + getHydrationAttributeNote() + footer;
+    let message = header + expected + actual + getHydrationAttributeNote() + footer;
+    if (!node || node && isLikelyExternalSourceNode(node)) {
+      message += `Note: It looks like this mismatch may have been caused by a third-party script or browser extension that modified the DOM outside of Angular's control. Angular hydration does not support nodes injected or removed outside of the Angular-managed DOM. Note: If you know which element in the DOM this will be inserted, consider adding ngSkipHydration to prevent this error. 
+
+`;
+    }
     throw new RuntimeError(-500, message);
   }
 }
@@ -12782,9 +12788,20 @@ function getHydrationErrorFooter(componentClassName) {
   return `To fix this problem:
   * check ${componentInfo} component for hydration-related issues
   * check to see if your template has valid HTML structure
+  * check if there are any third-party scripts that manipulate the DOM. More info: ${DOC_PAGE_BASE_URL}${THIRD_PARTY_SCRIPTS_URL}
   * or skip hydration by adding the \`ngSkipHydration\` attribute to its host node in a template
 
 `;
+}
+function isLikelyExternalSourceNode(rNode) {
+  const node = rNode;
+  if (node.nodeType !== Node.ELEMENT_NODE) {
+    return false;
+  }
+  if (readPatchedData(node)) {
+    return false;
+  }
+  return true;
 }
 function getHydrationAttributeNote() {
   return "Note: attributes are only displayed to better represent the DOM but have no effect on hydration mismatches.\n\n";
@@ -15074,7 +15091,7 @@ var ComponentFactory2 = class extends ComponentFactory$1 {
   }
 };
 function createRootTView(rootSelectorOrNode, componentDef, componentBindings, directives) {
-  const tAttributes = rootSelectorOrNode ? ["ng-version", "21.2.9"] : extractAttrsAndClassesFromSelector(componentDef.selectors[0]);
+  const tAttributes = rootSelectorOrNode ? ["ng-version", "21.2.10"] : extractAttrsAndClassesFromSelector(componentDef.selectors[0]);
   let creationBindings = null;
   let updateBindings = null;
   let varsToAllocate = 0;
@@ -29315,4 +29332,4 @@ export {
   RESPONSE_INIT,
   REQUEST_CONTEXT
 };
-//# sourceMappingURL=chunk-4OUHZF5U.js.map
+//# sourceMappingURL=chunk-ZBUEH6HV.js.map

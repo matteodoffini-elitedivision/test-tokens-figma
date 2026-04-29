@@ -8,9 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "compodoc": "npx compodoc -p tsconfig.app.json -e json -d .",
-    "tokens": "node build.js",
+    "tokens": "node build.mjs",
     "sync-tokens": "node scripts/sync-tokens.js",
-    "sync": "node scripts/sync-tokens.js && node build.js",
+    "sync": "node scripts/sync-tokens.js && node build.mjs",
     "storybook": "npm run tokens && npm run compodoc && ng run frontend:storybook",
     "build-storybook": "npm run tokens && npm run compodoc && ng run frontend:build-storybook",
     "chromatic": "npx chromatic --project-token=chpt_799302648fbbc76"

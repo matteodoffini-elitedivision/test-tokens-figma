@@ -13,36 +13,78 @@
     },
     "black": {
       "10": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
         "$type": "color",
         "$value": "#0000001a",
         "$description": "Colore neutro"
       },
       "15": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
         "$type": "color",
         "$value": "#00000026",
         "$description": "Colore neutro"
       },
       "25": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
         "$type": "color",
         "$value": "#00000040",
         "$description": "Colore neutro"
       },
       "50": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
         "$type": "color",
         "$value": "#00000080",
         "$description": "Colore neutro"
       },
       "85": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
         "$type": "color",
         "$value": "#000000d9",
         "$description": "Colore neutro"
       },
       "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
         "$type": "color",
         "$value": "#000000",
         "$description": "Colore neutro"
       },
       "05": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
         "$type": "color",
         "$value": "#0000000d",
         "$description": "Colore neutro"

@@ -4,7 +4,10 @@
       "Bash(git -C /Users/matteodoffini/Documents/progetti/test-tokens-figma show HEAD:src/stories/AgidButton.stories.ts)",
       "Bash(git -C /Users/matteodoffini/Documents/progetti/test-tokens-figma show HEAD:brands.config.js)",
       "Bash(python3 -c ' *)",
-      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d, indent=2\\)[:1000]\\)\")"
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d, indent=2\\)[:1000]\\)\")",
+      "Bash(node -e ' *)",
+      "PowerShell(nvm use *)",
+      "Bash(node -e \"const a=require\\('./angular.json'\\); const opts=a.projects.frontend.architect.build.options; console.log\\('assets:', JSON.stringify\\(opts.assets,null,2\\)\\); console.log\\('styles:', JSON.stringify\\(opts.styles,null,2\\)\\);\")"
     ]
   }
 }

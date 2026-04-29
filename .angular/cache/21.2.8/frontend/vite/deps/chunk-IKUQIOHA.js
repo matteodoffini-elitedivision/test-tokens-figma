@@ -7,7 +7,7 @@ import {
   getDOM,
   parseCookieValue,
   setRootDomAdapter
-} from "./chunk-5XCU34OP.js";
+} from "./chunk-RB3M2OBE.js";
 import {
   APP_BOOTSTRAP_LISTENER,
   APP_ID,
@@ -93,7 +93,7 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵinject
-} from "./chunk-4OUHZF5U.js";
+} from "./chunk-ZBUEH6HV.js";
 
 // node_modules/@angular/platform-browser/fesm2022/_dom_renderer-chunk.mjs
 var EventManagerPlugin = class {
@@ -4087,7 +4087,7 @@ function provideClientHydration(...features) {
   }
   return makeEnvironmentProviders([typeof ngDevMode !== "undefined" && ngDevMode ? provideEnabledBlockingInitialNavigationDetector() : [], typeof ngDevMode !== "undefined" && ngDevMode ? provideStabilityDebugging() : [], withDomHydration(), featuresKind.has(HydrationFeatureKind.NoHttpTransferCache) || hasHttpTransferCacheOptions ? [] : withHttpTransferCache({}), providers]);
 }
-var VERSION = new Version("21.2.9");
+var VERSION = new Version("21.2.10");
 
 export {
   EventManagerPlugin,
@@ -4126,4 +4126,4 @@ export {
   provideClientHydration,
   VERSION
 };
-//# sourceMappingURL=chunk-XHCD4ZGT.js.map
+//# sourceMappingURL=chunk-IKUQIOHA.js.map

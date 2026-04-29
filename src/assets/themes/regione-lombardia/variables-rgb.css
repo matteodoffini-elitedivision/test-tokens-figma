@@ -100,13 +100,13 @@
   --it-plum-84: 226, 202, 223;
   --it-plum-95: 246, 239, 245;
   --it-plum-98: 251, 249, 251;
-  --it-primary: 41, 122, 56; /** Sfondo primario, utilizzato per elementi interattivi (buttons, links) ed elementi caratterizzati con l’identità visiva. */
-  --it-primary-light: 255, 255, 255; /** Sfondo con contrasto leggero, utilizzato come alternativa al colore primario per elementi interattivi. */
-  --it-primary-lighter: 228, 246, 232; /** Sfondo di colore primario con contrasto ridotto, definisce una sezione o una parte di essa nel contesto della pagina. */
-  --it-primary-hover: 24, 73, 33; /** Sfondo utilizzato su componenti primari interattivi nello stato di :hover. */
-  --it-primary-active: 8, 23, 10; /** Sfondo utilizzato su componenti primari interattivi nello stato attivo e premuto. */
-  --it-primary-muted: 24, 73, 33; /** Sfondo utilizzato su sezioni di pagina. */
-  --it-primary-deep: 17, 50, 23; /** Sfondo utilizzato su sezioni di pagina. */
+  --it-primary: 125, 38, 112; /** Sfondo primario, utilizzato per elementi interattivi (buttons, links) ed elementi caratterizzati con l’identità visiva. */
+  --it-primary-light: 226, 202, 223; /** Sfondo con contrasto leggero, utilizzato come alternativa al colore primario per elementi interattivi. */
+  --it-primary-lighter: 251, 249, 251; /** Sfondo di colore primario con contrasto ridotto, definisce una sezione o una parte di essa nel contesto della pagina. */
+  --it-primary-hover: 94, 29, 84; /** Sfondo utilizzato su componenti primari interattivi nello stato di :hover. */
+  --it-primary-active: 70, 22, 63; /** Sfondo utilizzato su componenti primari interattivi nello stato attivo e premuto. */
+  --it-primary-muted: 94, 29, 84; /** Sfondo utilizzato su sezioni di pagina. */
+  --it-primary-deep: 70, 22, 63; /** Sfondo utilizzato su sezioni di pagina. */
   --it-secondary: 92, 111, 130; /** Sfondo alternativo, utilizzato per elementi interattivi secondari o per sezioni di una pagina. */
   --it-secondary-hover: 47, 71, 94; /** Sfondo utilizzato su elementi interattivi secondari nello stato di :hover. */
   --it-secondary-active: 23, 50, 77; /** Sfondo utilizzato su elementi interattivi secondari nello stato attivo e premuto. */
@@ -131,9 +131,9 @@
   --it-danger-light: 251, 239, 241; /** Sfondo di pericolo o errore per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse */
   --it-danger-hover: 153, 38, 57; /** Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato di :hover. */
   --it-danger-active: 102, 26, 38; /** Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato attivo e premuto. */
-  --it-primary: 41, 122, 56; /** Bordo primario, utilizzato per elementi interattivi cliccabili. */
-  --it-primary-hover: 24, 73, 33; /** Bordo primario per stato interattivo hover */
-  --it-primary-active: 8, 23, 10; /** Bordo primario per stato interattivo attivo e premuto. */
+  --it-primary: 125, 38, 112; /** Bordo primario, utilizzato per elementi interattivi cliccabili. */
+  --it-primary-hover: 94, 29, 84; /** Bordo primario per stato interattivo hover */
+  --it-primary-active: 70, 22, 63; /** Bordo primario per stato interattivo attivo e premuto. */
   --it-secondary: 92, 111, 130; /** Bordo secondario, utilizzato per elementi interattivi cliccabili */
   --it-secondary-hover: 47, 71, 94; /** Bordo secondario per stato interattivo hover */
   --it-secondary-active: 23, 50, 77; /** Bordo secondario per stato interattivo attivo e premuto. */
@@ -150,7 +150,7 @@
   --it-danger-hover: 153, 38, 57; /** Colore di sfondo che avvisa di un pericolo o errore per stato interattivo :hover. */
   --it-danger-active: 102, 26, 38; /** Colore di sfondo che avvisa di un pericolo o errore per stato attivo e premuto. */
   --it-base: 26, 26, 26; /** Corpo pagina base */
-  --it-primary: 41, 122, 56; /** Testo con link */
+  --it-primary: 125, 38, 112; /** Testo con link */
   --it-secondary: 47, 71, 94; /** Corpo pagina alternativo, contenuti di dettaglio, testo button secondary */
   --it-muted: 92, 111, 130; /** Testo di supporto per contenuti molto brevi */
   --it-disabled: 92, 111, 130; /** Testo disabilitato */
@@ -165,9 +165,9 @@
   --it-danger-active: 102, 26, 38; /** Colore del testo per problema o errore interattivo nello stato attivo e premuto. */
   --it-inverse: 255, 255, 255; /** Testo invertito per sfondi a contrasto (primary, secondary, emphasis) */
   --it-accent: 8, 153, 148; /** Testo di accento, alternativo al primary per elementi interattivi su sfondi a contrasto */
-  --it-link-base: 41, 122, 56; /** Colore base per i link */
-  --it-link-hover: 24, 73, 33; /** Colore per i link nello stato hover */
-  --it-link-active: 8, 23, 10; /** Colore per i link nello stato active */
+  --it-link-base: 125, 38, 112; /** Colore base per i link */
+  --it-link-hover: 94, 29, 84; /** Colore per i link nello stato hover */
+  --it-link-active: 70, 22, 63; /** Colore per i link nello stato active */
   --it-link-secondary: 47, 71, 94; /** Colore del link secondario, richiede sempre la sottolineatura. */
   --it-link-secondary-hover: 23, 50, 77; /** Testo del button secondary nello stato hover */
   --it-link-secondary-active: 23, 50, 77; /** Testo del button secondary nello stato attivo e premuto. */
@@ -179,17 +179,7 @@
   --it-shadow-whisper: 0, 0, 0; /** Colore ombreggiatura leggermente visibile */
   --it-shadow-soft: 0, 0, 0; /** Colore ombreggiatura chiara */
   --it-shadow-dark: 0, 0, 0; /** Colore ombreggiatura molto visibile */
-  --it-green-50: 228, 246, 232;
-  --it-green-100: 202, 237, 208;
-  --it-green-200: 152, 220, 164;
-  --it-green-300: 98, 202, 118;
-  --it-green-400: 59, 176, 80;
-  --it-green-500: 41, 122, 56;
-  --it-green-600: 33, 99, 45;
-  --it-green-700: 24, 73, 33;
-  --it-green-800: 17, 50, 23;
-  --it-green-900: 8, 23, 10;
-  --it-font-sans: NaN, NaN, NaN;
+  --it-font-sans: NaN, NaN, NaN; /** Famiglia font senza grazie */
   --it-font-serif: Lora; /** Famiglia font con grazie */
   --it-font-mono: NaN, 11, NaN; /** Famiglia font mono spaziata */
   --it-font-weight-extra-light: 14, NaN, 10;
@@ -231,7 +221,7 @@
   --it-line-height-10: 64; /** Dimensione della scala tipografica */
   --it-line-height-11: 72; /** Dimensione della scala tipografica */
   --it-font-tracking-short: -1; /** Spazio tra le lettere di un font */
-  --it-font-tracking-narrow: -1, NaN, 153; /** Spazio tra le lettere di un font */
+  --it-font-tracking-narrow: -1.3; /** Spazio tra le lettere di un font */
   --it-font-tracking-tight: -2; /** Spazio tra le lettere di un font */
   --it-font-tracking-normal: 0; /** Spazio tra le lettere di un font */
   --it-spacing--2x: -2;
@@ -288,7 +278,7 @@
   --it-spacing-spacing-inset-xl: 40;
   --it-spacing-spacing-inset-xxl: 48;
   --it-spacing-spacing-inset-3xl: 96;
-  --it-radius-smooth: 4; /** Raggio di un bordo */
+  --it-radius-smooth: 0; /** Raggio di un bordo */
   --it-radius-circle: 80; /** Raggio di un bordo */
   --it-radius-rounded: 40; /** Raggio di un bordo */
   --it-shadow-blur-s: 4; /** Raggio di sfocatura dell'ombreggiatura */
@@ -297,16 +287,16 @@
   --it-shadow-offset-s: 4; /** Offset dell'ombreggiatura */
   --it-shadow-offset-m: 8; /** Offset dell'ombreggiatura */
   --it-shadow-offset-l: 16; /** Offset dell'ombreggiatura */
-  --it-italia-base: 41, 122, 56; /** Colore base del tema */
-  --it-italia-light: 255, 255, 255; /** Colore del tema chiaro */
-  --it-italia-lighter: 228, 246, 232; /** Colore del tema molto chiaro */
-  --it-italia-subtle: 0, 77, 153; /** Colore del tema meno saturo */
-  --it-italia-muted: 0, 64, 128; /** Colore del tema molto meno saturo */
-  --it-italia-deep: 0, 51, 102; /** Colore del tema scuro */
+  --it-italia-base: 125, 38, 112; /** Colore base del tema */
+  --it-italia-light: 226, 202, 223; /** Colore del tema chiaro */
+  --it-italia-lighter: 251, 249, 251; /** Colore del tema molto chiaro */
+  --it-italia-subtle: 125, 38, 112; /** Colore del tema meno saturo */
+  --it-italia-muted: 94, 29, 84; /** Colore del tema molto meno saturo */
+  --it-italia-deep: 70, 22, 63; /** Colore del tema scuro */
   --it-icon-default: 26, 26, 26; /** Colore icona di base */
-  --it-icon-primary: 41, 122, 56; /** Colore icona con link */
-  --it-icon-primary-hover: 24, 73, 33; /** Colore icona con link status hover */
-  --it-icon-primary-active: 8, 23, 10; /** Colore icona con link status attivo */
+  --it-icon-primary: 125, 38, 112; /** Colore icona con link */
+  --it-icon-primary-hover: 94, 29, 84; /** Colore icona con link status hover */
+  --it-icon-primary-active: 70, 22, 63; /** Colore icona con link status attivo */
   --it-icon-secondary: 92, 111, 130; /** Colore icona di supporto */
   --it-icon-secondary-hover: 47, 71, 94; /** Colore icona di supporto - status hover */
   --it-icon-secondary-active: 23, 50, 77; /** Colore icona di supporto - status attivo */
