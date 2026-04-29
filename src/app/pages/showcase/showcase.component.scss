@@ -1,0 +1,73 @@
+:host {
+  display: block;
+}
+
+// Sezioni showcase
+.showcase-section {
+  margin-bottom: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--bs-border-color, #dee2e6);
+
+  &:first-child {
+    border-top: none;
+  }
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--it-primary, #0066cc);
+}
+
+// Color palette
+.color-swatch {
+  height: 120px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0.75rem;
+  transition: transform 0.15s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  .swatch-label {
+    font-size: 0.75rem;
+    line-height: 1.3;
+
+    code {
+      font-size: 0.65rem;
+      opacity: 0.85;
+    }
+  }
+}
+
+// Assicura che i bottoni abbiano la giusta variante colore
+.btn-primary {
+  --bs-btn-bg: var(--it-primary);
+  --bs-btn-border-color: var(--it-primary);
+  --bs-btn-hover-bg: var(--it-primary-hover, color-mix(in srgb, var(--it-primary) 85%, black));
+  --bs-btn-hover-border-color: var(--it-primary-hover, color-mix(in srgb, var(--it-primary) 85%, black));
+  --bs-btn-active-bg: var(--it-primary-active, color-mix(in srgb, var(--it-primary) 70%, black));
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--it-primary);
+  --bs-btn-border-color: var(--it-primary);
+  --bs-btn-hover-bg: var(--it-primary);
+  --bs-btn-hover-border-color: var(--it-primary);
+}
+
+// Form labels (Bootstrap Italia li vuole in posizione active)
+.form-group {
+  position: relative;
+  margin-bottom: 0;
+
+  label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+}

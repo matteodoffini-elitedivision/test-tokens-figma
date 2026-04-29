@@ -1,27 +1,47 @@
-/* src/styles.scss */
+// bootstrap-italia.min.css è già incluso come entry in angular.json "styles".
+// NON usare @import qui: Dart Sass trasformerebbe la riga in un browser @import
+// che farebbe una richiesta 404 a runtime (il file non è servito a quel percorso).
 
-// 1. Importa il CSS già compilato (bypassiamo i calcoli matematici di Sass)
-@import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
-
-
+// ---------------------------------------------------------------------------
+// Mappatura token brand → variabili Bootstrap 5
+// Le variabili --it-* vengono iniettate a runtime da ThemeService
+// (<link href="/assets/themes/{brand}/variables.css">).
+// Bootstrap 5 usa le variabili --bs-* per colorare i propri componenti.
+// ---------------------------------------------------------------------------
 :root {
-  /* Ora questi nomi corrispondono ESATTAMENTE a quelli generati dal build.js */
-  --bs-primary: var(--it-primary);
-  --bs-success: var(--it-success);
-  --bs-danger: var(--it-danger);
+  --bs-primary:     var(--it-primary);
+  --bs-secondary:   var(--it-secondary);
+  --bs-success:     var(--it-success);
+  --bs-warning:     var(--it-warning);
+  --bs-danger:      var(--it-danger);
 
-  /* E per gli RGB necessari a Bootstrap 5 */
+  // Versioni RGB richieste da Bootstrap per le utility opacity/alpha
   --bs-primary-rgb: var(--it-primary-rgb);
+  --bs-success-rgb: var(--it-success-rgb);
+  --bs-danger-rgb:  var(--it-danger-rgb);
 }
 
-/* Questa è l'unica mappatura "di massa" che ti serve per i bottoni */
+// ---------------------------------------------------------------------------
+// Override bottoni — forziamo l'uso delle variabili brand
+// ---------------------------------------------------------------------------
 .btn-primary {
-  --bs-btn-bg: var(--bs-primary);
-  --bs-btn-border-color: var(--bs-primary);
-  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-bg:              var(--bs-primary);
+  --bs-btn-border-color:    var(--bs-primary);
+  --bs-btn-hover-bg:        var(--it-primary-hover, var(--bs-primary));
+  --bs-btn-hover-border:    var(--it-primary-hover, var(--bs-primary));
+  --bs-btn-active-bg:       var(--it-primary-active, var(--bs-primary));
 }
-// 4. Sezioni Master (Header/Footer)
-// Usiamo la logica AgID per colorare le fasce principali
+
+.btn-outline-primary {
+  --bs-btn-color:           var(--bs-primary);
+  --bs-btn-border-color:    var(--bs-primary);
+  --bs-btn-hover-bg:        var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+}
+
+// ---------------------------------------------------------------------------
+// Header e Footer — usano il colore primario brand come background
+// ---------------------------------------------------------------------------
 .it-header-wrapper .it-nav-wrapper,
 .it-header-slim-wrapper,
 .it-footer-main {

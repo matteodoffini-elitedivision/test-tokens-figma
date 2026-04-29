@@ -2,13 +2,13 @@
 // Do not edit directly, this file was auto-generated.
 
 $color-white: #ffffff; // Colore neutro
-$color-black-10: rgba(0, 0, 0, 0.1); // Colore neutro
-$color-black-15: rgba(0, 0, 0, 0.15); // Colore neutro
-$color-black-25: rgba(0, 0, 0, 0.25); // Colore neutro
-$color-black-50: rgba(0, 0, 0, 0.5); // Colore neutro
-$color-black-85: rgba(0, 0, 0, 0.85); // Colore neutro
+$color-black-10: #000000; // Colore neutro
+$color-black-15: #000000; // Colore neutro
+$color-black-25: #000000; // Colore neutro
+$color-black-50: #000000; // Colore neutro
+$color-black-85: #000000; // Colore neutro
 $color-black-100: #000000; // Colore neutro
-$color-black-05: rgba(0, 0, 0, 0.05); // Colore neutro
+$color-black-05: #000000; // Colore neutro
 $color-blue-20: #003366; // Colore tema default
 $color-blue-25: #004080; // Colore tema default
 $color-blue-30: #004d99; // Colore tema default
@@ -174,9 +174,9 @@ $color-link-disabled: #5c6f82; // Colore per i link disabilitati
 $color-link-accent: #089994; // Colore di risalto per un link
 $color-link-accent-hover: #077f7b; // Colore di risalto per un link in stato hover.
 $color-outline-focus: #1a1a1a; // Colore di evidenziazione dello stato focus
-$color-shadow-whisper: rgba(0, 0, 0, 0.05); // Colore ombreggiatura leggermente visibile
-$color-shadow-soft: rgba(0, 0, 0, 0.1); // Colore ombreggiatura chiara
-$color-shadow-dark: rgba(0, 0, 0, 0.15); // Colore ombreggiatura molto visibile
+$color-shadow-whisper: #000000; // Colore ombreggiatura leggermente visibile
+$color-shadow-soft: #000000; // Colore ombreggiatura chiara
+$color-shadow-dark: #000000; // Colore ombreggiatura molto visibile
 $color-green-50: #e4f6e8;
 $color-green-100: #caedd0;
 $color-green-200: #98dca4;
@@ -258,6 +258,34 @@ $spacing-l: 32; // Valore large nella scala dimensionale per la spaziatura
 $spacing-xl: 40; // Valore extra-large nella scala dimensionale per la spaziatura
 $spacing-xxl: 48; // Valore extra-extra-large nella scala dimensionale per la spaziatura
 $spacing-3xl: 96; // Valore 3-extra-large nella scala dimensionale per la spaziatura
+$spacing-spacing-stack-3xs: 4;
+$spacing-spacing-stack-xxs: 8;
+$spacing-spacing-stack-xs: 12;
+$spacing-spacing-stack-s: 16;
+$spacing-spacing-stack-m: 24;
+$spacing-spacing-stack-l: 32;
+$spacing-spacing-stack-xl: 40;
+$spacing-spacing-stack-xxl: 48;
+$spacing-spacing-stack-3xl: 96;
+$spacing-spacing-inline-3xs: 4;
+$spacing-spacing-inline-xxs: 8;
+$spacing-spacing-inline-xs: 12;
+$spacing-spacing-inline-s: 16;
+$spacing-spacing-inline-m: 24;
+$spacing-spacing-inline-l: 32;
+$spacing-spacing-inline-xl: 40;
+$spacing-spacing-inline-xxl: 48;
+$spacing-spacing-inline-3xl: 96;
+$spacing-spacing-inset-4xs: 2;
+$spacing-spacing-inset-3xs: 4;
+$spacing-spacing-inset-xxs: 8;
+$spacing-spacing-inset-xs: 12;
+$spacing-spacing-inset-s: 16;
+$spacing-spacing-inset-m: 24;
+$spacing-spacing-inset-l: 32;
+$spacing-spacing-inset-xl: 40;
+$spacing-spacing-inset-xxl: 48;
+$spacing-spacing-inset-3xl: 96;
 $radius-smooth: 4; // Raggio di un bordo
 $radius-circle: 80; // Raggio di un bordo
 $radius-rounded: 40; // Raggio di un bordo
@@ -273,77 +301,49 @@ $theme-italia-lighter: #e4f6e8; // Colore del tema molto chiaro
 $theme-italia-subtle: #004d99; // Colore del tema meno saturo
 $theme-italia-muted: #004080; // Colore del tema molto meno saturo
 $theme-italia-deep: #003366; // Colore del tema scuro
+$icon-default: #1a1a1a; // Colore icona di base
+$icon-primary: #297a38; // Colore icona con link
+$icon-primary-hover: #184921; // Colore icona con link status hover
+$icon-primary-active: #08170a; // Colore icona con link status attivo
+$icon-secondary: #5c6f82; // Colore icona di supporto
+$icon-secondary-hover: #2f475e; // Colore icona di supporto - status hover
+$icon-secondary-active: #17324d; // Colore icona di supporto - status attivo
+$icon-success: #008055; // Colore icona di supporto per azioni avvenute con successo
+$icon-success-hover: #006644; // Colore icona di supporto per azioni avvenute con successo - status hover
+$icon-success-active: #004d33; // Colore icona di supporto per azioni avvenute con successo - status attivo
+$icon-warning: #995c00; // Colore icona di supporto per comunicazioni che richiedono attenzione
+$icon-warning-hover: #804d00; // Colore icona di supporto per comunicazioni che richiedono attenzione - status hover
+$icon-warning-active: #663d00; // Colore icona di supporto per comunicazioni che richiedono attenzione - status attivo
+$icon-danger: #cc334d; // Colore icona di supporto per azioni non andate a buon fine - status hover
+$icon-danger-hover: #992639; // Colore icona di supporto per azioni non andate a buon fine - status hover
+$icon-danger-active: #661a26; // Colore icona di supporto per azioni non andate a buon fine - status hover
+$icon-inverse: #ffffff; // Colore icona dsabilitata
+$icon-disabled: #5c6f82; // Colore icona disabilitata.
 $icon-size-xs: 16; // Dimensione icona molto piccola
 $icon-size-s: 24; // Dimensione icona piccola
 $icon-size-m: 32; // Dimensione icona media
 $icon-size-l: 48; // Dimensione icona grande
 $icon-size-xl: 64; // Dimensione icona molto grande
-$spacing-spacing-stack-3xs: $spacing-3xs;
-$spacing-spacing-stack-xxs: $spacing-xxs;
-$spacing-spacing-stack-xs: $spacing-xs;
-$spacing-spacing-stack-s: $spacing-s;
-$spacing-spacing-stack-m: $spacing-m;
-$spacing-spacing-stack-l: $spacing-l;
-$spacing-spacing-stack-xl: $spacing-xl;
-$spacing-spacing-stack-xxl: $spacing-xxl;
-$spacing-spacing-stack-3xl: $spacing-3xl;
-$spacing-spacing-inline-3xs: $spacing-3xs;
-$spacing-spacing-inline-xxs: $spacing-xxs;
-$spacing-spacing-inline-xs: $spacing-xs;
-$spacing-spacing-inline-s: $spacing-s;
-$spacing-spacing-inline-m: $spacing-m;
-$spacing-spacing-inline-l: $spacing-l;
-$spacing-spacing-inline-xl: $spacing-xl;
-$spacing-spacing-inline-xxl: $spacing-xxl;
-$spacing-spacing-inline-3xl: $spacing-3xl;
-$spacing-spacing-inset-4xs: $spacing-4xs;
-$spacing-spacing-inset-3xs: $spacing-3xs;
-$spacing-spacing-inset-xxs: $spacing-xxs;
-$spacing-spacing-inset-xs: $spacing-xs;
-$spacing-spacing-inset-s: $spacing-s;
-$spacing-spacing-inset-m: $spacing-m;
-$spacing-spacing-inset-l: $spacing-l;
-$spacing-spacing-inset-xl: $spacing-xl;
-$spacing-spacing-inset-xxl: $spacing-xxl;
-$spacing-spacing-inset-3xl: $spacing-3xl;
-$icon-default: $color-text-base; // Colore icona di base
-$icon-primary: $color-background-primary; // Colore icona con link
-$icon-primary-hover: $color-background-primary-hover; // Colore icona con link status hover
-$icon-primary-active: $color-background-primary-active; // Colore icona con link status attivo
-$icon-secondary: $color-background-secondary; // Colore icona di supporto
-$icon-secondary-hover: $color-background-secondary-hover; // Colore icona di supporto - status hover
-$icon-secondary-active: $color-background-secondary-active; // Colore icona di supporto - status attivo
-$icon-success: $color-background-success; // Colore icona di supporto per azioni avvenute con successo
-$icon-success-hover: $color-background-success-hover; // Colore icona di supporto per azioni avvenute con successo - status hover
-$icon-success-active: $color-background-success-active; // Colore icona di supporto per azioni avvenute con successo - status attivo
-$icon-warning: $color-background-warning; // Colore icona di supporto per comunicazioni che richiedono attenzione
-$icon-warning-hover: $color-background-warning-hover; // Colore icona di supporto per comunicazioni che richiedono attenzione - status hover
-$icon-warning-active: $color-background-warning-active; // Colore icona di supporto per comunicazioni che richiedono attenzione - status attivo
-$icon-danger: $color-background-danger; // Colore icona di supporto per azioni non andate a buon fine - status hover
-$icon-danger-hover: $color-background-danger-hover; // Colore icona di supporto per azioni non andate a buon fine - status hover
-$icon-danger-active: $color-background-danger-active; // Colore icona di supporto per azioni non andate a buon fine - status hover
-$icon-inverse: $color-background-inverse; // Colore icona dsabilitata
-$icon-disabled: $color-text-disabled; // Colore icona disabilitata.
-$code-font: $font-mono; // La famiglia di font predefinita per i blocchi di codice.
-$data-font: $font-mono; // La famiglia di font predefinita per il contenuto della visualizzazione dei dati.
-$heading-1-font-size: $font-size-9; // La dimensione di font predefinita per il titolo 1.
-$heading-1-font-size-l: $font-size-10; // La dimensione di font predefinita per il titolo 1 grande.
-$heading-2-font-size: $font-size-8; // La dimensione di font predefinita per il titolo 2.
-$heading-2-font-size-l: $font-size-9; // La dimensione di font predefinita per il titolo 2 grande.
-$heading-3-font-size-l: $font-size-8; // La dimensione di font predefinita per il titolo 3 grande.
-$heading-3-font-size: $font-size-7; // La dimensione di font predefinita per il titolo 3.
-$heading-4-font-size: $font-size-6; // La dimensione di font predefinita per il titolo 4.
-$heading-4-font-size-l: $font-size-7; // La dimensione di font predefinita per il titolo 4 grande.
-$heading-5-font-size: $font-size-5; // La dimensione di font predefinita per il titolo 5.
-$heading-5-font-size-l: $font-size-6; // La dimensione di font predefinita per il titolo 5 grande.
-$heading-6-font-size: $font-size-3; // La dimensione di font predefinita per il titolo 6.
-$heading-6-font-size-l: $font-size-4; // La dimensione di font predefinita per il titolo 6 grande.
-$body-font-size: $font-size-3; // La dimensione di font predefinita per il corpo del testo.
-$body-font-size-l: $font-size-4; // La dimensione di font predefinita per il corpo del testo grande.
-$caption-font-size: $font-size-2; // La dimensione di font predefinita per le didascalie.
-$lead-font-size: $font-size-5; // La dimensione di font predefinita per il testo in primo piano.
-$lead-font-size-l: $font-size-6; // La dimensione di font predefinita per il testo in primo piano grande.
-$label-font-size-xs: $font-size-1; // La dimensione di font predefinita per le etichette molto piccole.
-$label-font-size-s: $font-size-2; // La dimensione di font predefinita per le etichette piccole.
-$label-font-size: $font-size-3; // La dimensione di font predefinita per le etichette medie.
-$label-font-size-l: $font-size-4; // La dimensione di font predefinita per le etichette grandi.
+$code-font: Roboto Mono; // La famiglia di font predefinita per i blocchi di codice.
+$data-font: Roboto Mono; // La famiglia di font predefinita per il contenuto della visualizzazione dei dati.
+$heading-1-font-size: 40; // La dimensione di font predefinita per il titolo 1.
+$heading-1-font-size-l: 48; // La dimensione di font predefinita per il titolo 1 grande.
+$heading-2-font-size: 32; // La dimensione di font predefinita per il titolo 2.
+$heading-2-font-size-l: 40; // La dimensione di font predefinita per il titolo 2 grande.
+$heading-3-font-size-l: 32; // La dimensione di font predefinita per il titolo 3 grande.
+$heading-3-font-size: 28; // La dimensione di font predefinita per il titolo 3.
+$heading-4-font-size: 24; // La dimensione di font predefinita per il titolo 4.
+$heading-4-font-size-l: 28; // La dimensione di font predefinita per il titolo 4 grande.
+$heading-5-font-size: 20; // La dimensione di font predefinita per il titolo 5.
+$heading-5-font-size-l: 24; // La dimensione di font predefinita per il titolo 5 grande.
+$heading-6-font-size: 16; // La dimensione di font predefinita per il titolo 6.
+$heading-6-font-size-l: 18; // La dimensione di font predefinita per il titolo 6 grande.
+$body-font-size: 16; // La dimensione di font predefinita per il corpo del testo.
+$body-font-size-l: 18; // La dimensione di font predefinita per il corpo del testo grande.
+$caption-font-size: 14; // La dimensione di font predefinita per le didascalie.
+$lead-font-size: 20; // La dimensione di font predefinita per il testo in primo piano.
+$lead-font-size-l: 24; // La dimensione di font predefinita per il testo in primo piano grande.
+$label-font-size-xs: 12; // La dimensione di font predefinita per le etichette molto piccole.
+$label-font-size-s: 14; // La dimensione di font predefinita per le etichette piccole.
+$label-font-size: 16; // La dimensione di font predefinita per le etichette medie.
+$label-font-size-l: 18; // La dimensione di font predefinita per le etichette grandi.

@@ -1,0 +1,41 @@
+// Barra di selezione brand — visibile solo in sviluppo / showcase
+.brand-switcher {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+
+  &__label {
+    opacity: 0.7;
+    font-weight: 600;
+  }
+
+  &__btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.2rem 0.75rem;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: background 0.15s;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    &.active {
+      background: var(--it-primary, #0066cc);
+      border-color: var(--it-primary, #0066cc);
+    }
+  }
+}

@@ -27,6 +27,21 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "**/*",
+                "input": "node_modules/bootstrap-italia/dist/fonts",
+                "output": "fonts"
+              },
+              {
+                "glob": "sprites.svg",
+                "input": "node_modules/bootstrap-italia/dist/svg",
+                "output": "assets"
               }
             ],
             "styles": [

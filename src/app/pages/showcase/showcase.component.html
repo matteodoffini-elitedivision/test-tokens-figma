@@ -1,0 +1,336 @@
+<!-- ============================================================
+     HEADER — Bootstrap Italia it-header-wrapper
+     ============================================================ -->
+<div class="it-header-wrapper">
+
+  <!-- Slim bar (ente proprietario) -->
+  <div class="it-header-slim-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="it-header-slim-wrapper-content">
+            <a class="d-none d-lg-block navbar-brand" href="#">Presidenza del Consiglio dei Ministri</a>
+            <div class="it-header-slim-right-zone">
+              <div class="it-access-top-wrapper">
+                <a href="#" class="btn btn-primary btn-sm">Accedi all'area riservata</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Centro (brand + ricerca) -->
+  <div class="it-nav-wrapper">
+    <div class="it-header-center-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="it-header-center-content-wrapper">
+              <div class="it-brand-wrapper">
+                <a href="#">
+                  <div class="it-brand-text">
+                    <div class="it-brand-title">Design System Showcase</div>
+                    <div class="it-brand-tagline d-none d-md-block">Brand attivo: {{ themeService.currentBrand() }}</div>
+                  </div>
+                </a>
+              </div>
+              <div class="it-right-zone">
+                <div class="it-search-wrapper">
+                  <span class="d-none d-md-block">Cerca</span>
+                  <a href="#" class="search-link rounded-icon">
+                    <svg class="icon icon-white" aria-hidden="true" focusable="false">
+                      <use href="/assets/sprites.svg#it-search"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Barra di navigazione -->
+    <div class="it-header-navbar-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg has-megamenu" aria-label="Navigazione principale">
+              <div class="navbar-collapsable" id="main-nav">
+                <ul class="navbar-nav">
+                  @for (item of ['Showcase', 'Componenti', 'Token', 'Accessibilità']; track item; let i = $index) {
+                    <li class="nav-item">
+                      <a class="nav-link" [class.active]="i === 0" href="#">{{ item }}</a>
+                    </li>
+                  }
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     BODY
+     ============================================================ -->
+<main class="container my-5">
+
+  <!-- ── COLOR PALETTE ──────────────────────────────────────── -->
+  <section class="showcase-section" id="colors">
+    <h2 class="section-title">Color Palette</h2>
+    <p class="text-muted mb-4">
+      Variabili CSS generate da Style Dictionary — suffisso <code>--it-*</code> mappate su <code>--bs-*</code>.
+    </p>
+
+    <div class="row g-3">
+      @for (color of colorPalette; track color.cssVar) {
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="color-swatch rounded" [style.background-color]="'var(' + color.cssVar + ')'">
+            <span class="swatch-label" [class]="color.textClass">
+              {{ color.label }}<br>
+              <small><code>{{ color.cssVar }}</code></small>
+            </span>
+          </div>
+        </div>
+      }
+    </div>
+  </section>
+
+  <!-- ── BUTTONS ────────────────────────────────────────────── -->
+  <section class="showcase-section" id="buttons">
+    <h2 class="section-title">Bottoni — varianti</h2>
+
+    <h5 class="mt-3 mb-2 text-muted">Stile</h5>
+    <div class="d-flex flex-wrap gap-2">
+      @for (btn of buttonVariants; track btn.label) {
+        <button [class]="btn.classes">{{ btn.label }}</button>
+      }
+    </div>
+
+    <h5 class="mt-4 mb-2 text-muted">Dimensioni</h5>
+    <div class="d-flex flex-wrap align-items-center gap-2">
+      @for (btn of sizeVariants; track btn.label) {
+        <button [class]="btn.classes">{{ btn.label }}</button>
+      }
+    </div>
+
+    <h5 class="mt-4 mb-2 text-muted">Stati</h5>
+    <div class="d-flex flex-wrap gap-2">
+      <button class="btn btn-primary">Normale</button>
+      <button class="btn btn-primary" disabled>Disabilitato</button>
+      <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+        Caricamento…
+      </button>
+      <a href="#" class="btn btn-primary" role="button">Link button</a>
+    </div>
+  </section>
+
+  <!-- ── FORM ──────────────────────────────────────────────── -->
+  <section class="showcase-section" id="forms">
+    <h2 class="section-title">Form — componenti</h2>
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+      <div class="row g-4">
+
+        <!-- Input testo -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="active" for="input-name">Nome completo *</label>
+            <input
+              id="input-name"
+              type="text"
+              class="form-control"
+              formControlName="name"
+              placeholder="Mario Rossi"
+              [class.is-invalid]="form.get('name')?.invalid && form.get('name')?.touched"
+            />
+            @if (form.get('name')?.hasError('required') && form.get('name')?.touched) {
+              <div class="invalid-feedback">Il nome è obbligatorio.</div>
+            }
+            @if (form.get('name')?.hasError('minlength') && form.get('name')?.touched) {
+              <div class="invalid-feedback">Minimo 3 caratteri.</div>
+            }
+          </div>
+        </div>
+
+        <!-- Input email (solo display) -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="active" for="input-email">Email</label>
+            <input id="input-email" type="email" class="form-control" placeholder="mario.rossi@comune.it" />
+          </div>
+        </div>
+
+        <!-- Select regione -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="select-region">Regione *</label>
+            <select
+              id="select-region"
+              class="form-select"
+              formControlName="region"
+              [class.is-invalid]="form.get('region')?.invalid && form.get('region')?.touched"
+            >
+              <option value="">Seleziona una regione</option>
+              @for (r of regions; track r) {
+                <option [value]="r">{{ r }}</option>
+              }
+            </select>
+            @if (form.get('region')?.invalid && form.get('region')?.touched) {
+              <div class="invalid-feedback">Seleziona la regione.</div>
+            }
+          </div>
+        </div>
+
+        <!-- Input con icona (solo display) -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="active" for="input-date">Data di nascita</label>
+            <input id="input-date" type="date" class="form-control" />
+          </div>
+        </div>
+
+        <!-- Textarea -->
+        <div class="col-12">
+          <div class="form-group">
+            <label for="textarea-note">Note aggiuntive</label>
+            <textarea id="textarea-note" class="form-control" rows="3" placeholder="Inserisci eventuali note..."></textarea>
+          </div>
+        </div>
+
+        <!-- Checkbox -->
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              id="check-terms"
+              type="checkbox"
+              class="form-check-input"
+              formControlName="acceptTerms"
+              [class.is-invalid]="form.get('acceptTerms')?.invalid && form.get('acceptTerms')?.touched"
+            />
+            <label class="form-check-label" for="check-terms">
+              Accetto i <a href="#">termini e condizioni</a> e la <a href="#">privacy policy</a> *
+            </label>
+            @if (form.get('acceptTerms')?.invalid && form.get('acceptTerms')?.touched) {
+              <div class="invalid-feedback d-block">Devi accettare i termini per continuare.</div>
+            }
+          </div>
+
+          <!-- Checkbox aggiuntive di esempio -->
+          <div class="form-check mt-2">
+            <input id="check-news" type="checkbox" class="form-check-input" />
+            <label class="form-check-label" for="check-news">Voglio ricevere aggiornamenti via email</label>
+          </div>
+
+          <!-- Radio buttons -->
+          <div class="mt-3">
+            <span class="d-block mb-2 fw-semibold">Canale preferito</span>
+            @for (channel of ['Email', 'SMS', 'App mobile']; track channel; let i = $index) {
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  [id]="'radio-' + i"
+                  name="channel"
+                  [value]="channel"
+                />
+                <label class="form-check-label" [for]="'radio-' + i">{{ channel }}</label>
+              </div>
+            }
+          </div>
+        </div>
+
+        <!-- Azioni -->
+        <div class="col-12 d-flex gap-2">
+          <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Invia richiesta</button>
+          <button type="reset" class="btn btn-outline-secondary" (click)="form.reset()">Annulla</button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <!-- ── ALERTS / FEEDBACK ──────────────────────────────────── -->
+  <section class="showcase-section" id="alerts">
+    <h2 class="section-title">Alert &amp; Feedback</h2>
+
+    <div class="d-flex flex-column gap-3">
+      @for (type of ['success', 'warning', 'danger', 'info']; track type) {
+        <div class="alert alert-{{ type }} d-flex align-items-center" role="alert">
+          <strong class="me-2">{{ type | titlecase }}:</strong>
+          Messaggio di notifica per lo stato <em>{{ type }}</em>.
+        </div>
+      }
+    </div>
+  </section>
+
+  <!-- ── TIPOGRAFIA ─────────────────────────────────────────── -->
+  <section class="showcase-section" id="typography">
+    <h2 class="section-title">Tipografia</h2>
+    <div class="row g-3">
+      <div class="col-md-8">
+        <h1>Heading H1</h1>
+        <h2>Heading H2</h2>
+        <h3>Heading H3</h3>
+        <h4>Heading H4</h4>
+        <h5>Heading H5</h5>
+        <p>Paragrafo standard. Il design system italiano segue le <strong>Linee Guida AgID</strong> per garantire accessibilità e usabilità nei servizi digitali della pubblica amministrazione.</p>
+        <p class="lead">Lead paragraph — testo introduttivo.</p>
+        <p><small class="text-muted">Testo secondario / caption</small></p>
+        <p><a href="#">Link di esempio</a> — colore derivato da <code>--it-primary</code>.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER — Bootstrap Italia it-footer
+     ============================================================ -->
+<footer class="it-footer">
+  <div class="it-footer-main">
+    <div class="container">
+      <section>
+        <div class="row">
+          <div class="col-lg-3 d-none d-lg-block">
+            <div class="it-brand-wrapper it-brand-wrapper-small">
+              <a href="#">
+                <div class="it-brand-text">
+                  <div class="it-brand-title">Nome del sito</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row">
+              @for (col of footerColumns; track col.title) {
+                <div class="col-6 col-lg-3">
+                  <h4>{{ col.title }}</h4>
+                  <ul class="footer-list clearfix">
+                    @for (link of col.links; track link) {
+                      <li><a href="#">{{ link }}</a></li>
+                    }
+                  </ul>
+                </div>
+              }
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="it-footer-small-prints">
+    <div class="container">
+      <ul class="it-footer-small-prints-list list-inline mb-0">
+        @for (item of ['Media policy', 'Note legali', 'Privacy policy', 'Accessibilità']; track item) {
+          <li class="list-inline-item"><a href="#">{{ item }}</a></li>
+        }
+      </ul>
+    </div>
+  </div>
+</footer>
